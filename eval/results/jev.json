@@ -1,0 +1,3513 @@
+{
+ "label": "jev",
+ "backend": "typesafe/jev-latest",
+ "local": false,
+ "via": "openclaw-decisionModel",
+ "seconds": 27,
+ "results": [
+  {
+   "id": "cred-aws-env",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 1.1614709999994375
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.91,
+     "credential_location": 0.07,
+     "client": 0.07,
+     "internal": 0.11,
+     "confidential": 0.44
+    },
+    "ms": 247,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 571,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "cred-gh-token-issue",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.35344400000030873
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.92,
+     "credential_location": 0.07,
+     "client": 0.04,
+     "internal": 0.07,
+     "confidential": 0.12
+    },
+    "ms": 225,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 558,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "cred-slack-bot",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.06991099999868311
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.91,
+     "credential_location": 0.03,
+     "client": 0.05,
+     "internal": 0.15,
+     "confidential": 0.25
+    },
+    "ms": 222,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 556,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "cred-openai-py",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.44421300000249175
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.92,
+     "credential_location": 0.04,
+     "client": 0.04,
+     "internal": 0.04,
+     "confidential": 0.17
+    },
+    "ms": 248,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 559,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "cred-anthropic-curl",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.25155200000153854
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.92,
+     "credential_location": 0.08,
+     "client": 0.07,
+     "internal": 0.08,
+     "confidential": 0.34
+    },
+    "ms": 210,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 575,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "cred-stripe-yaml",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.07195499999943422
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.83,
+     "credential_location": 0.05,
+     "client": 0.04,
+     "internal": 0.06,
+     "confidential": 0.64
+    },
+    "ms": 212,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 551,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "cred-pem",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.06675499999983003
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.91,
+     "credential_location": 0.04,
+     "client": 0.04,
+     "internal": 0.06,
+     "confidential": 0.27
+    },
+    "ms": 222,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 726,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "cred-jwt-log",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.09728300000278978
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.81,
+     "credential_location": 0.03,
+     "client": 0.05,
+     "internal": 0.05,
+     "confidential": 0.1
+    },
+    "ms": 231,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 616,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "cred-db-url",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.21543400000518886
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.94,
+     "credential_location": 0.53,
+     "client": 0.13,
+     "internal": 0.96,
+     "confidential": 0.59
+    },
+    "ms": 210,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 532,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "cred-password-prose",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.6136320000005071
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.96,
+     "credential_location": 0.06,
+     "client": 0.09,
+     "internal": 0.1,
+     "confidential": 0.62
+    },
+    "ms": 222,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 528,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "cred-password-prose-2",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.06876900000497699
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.96,
+     "credential_location": 0.08,
+     "client": 0.03,
+     "internal": 0.16,
+     "confidential": 0.16
+    },
+    "ms": 257,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 531,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "cred-discord-webhook",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.0764329999947222
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.75,
+     "credential_location": 0.21,
+     "client": 0.07,
+     "internal": 0.25,
+     "confidential": 0.13
+    },
+    "ms": 250,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 601,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "cred-hex-apikey",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.1092350000035367
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.89,
+     "credential_location": 0.04,
+     "client": 0.03,
+     "internal": 0.09,
+     "confidential": 0.36
+    },
+    "ms": 236,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 536,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "cred-ja-password",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.06367899999895599
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.94,
+     "credential_location": 0.06,
+     "client": 0.08,
+     "internal": 0.06,
+     "confidential": 0.86
+    },
+    "ms": 193,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 547,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "cred-ja-token",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.06550300000526477
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.92,
+     "credential_location": 0.09,
+     "client": 0.06,
+     "internal": 0.11,
+     "confidential": 0.3
+    },
+    "ms": 251,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 563,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "cred-ja-aws",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.0722650000025169
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.82,
+     "credential_location": 0.03,
+     "client": 0.05,
+     "internal": 0.05,
+     "confidential": 0.43
+    },
+    "ms": 226,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 571,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "cred-spelled-out",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.07222599999658996
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.92,
+     "credential_location": 0.1,
+     "client": 0.13,
+     "internal": 0.11,
+     "confidential": 0.18
+    },
+    "ms": 213,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 533,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "cred-ja-spelled",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.0542009999990114
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.88,
+     "credential_location": 0.06,
+     "client": 0.03,
+     "internal": 0.1,
+     "confidential": 0.19
+    },
+    "ms": 212,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 546,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "loc-env-path",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential_location",
+    "internal"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "ms": 0.07859699999971781
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.06,
+     "credential_location": 0.98,
+     "client": 0.05,
+     "internal": 0.95,
+     "confidential": 0.56
+    },
+    "ms": 234,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 527,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "loc-vault",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential_location"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.06946000000607455
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential_location",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.05,
+     "credential_location": 0.98,
+     "client": 0.07,
+     "internal": 0.07,
+     "confidential": 0.53
+    },
+    "ms": 637,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 525,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "loc-bucket",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential_location"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.08004100000107428
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential_location"
+    ],
+    "scores": {
+     "credential": 0.03,
+     "credential_location": 0.97,
+     "client": 0.24,
+     "internal": 0.48,
+     "confidential": 0.41
+    },
+    "ms": 250,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 532,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "loc-home-dir",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential_location"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.051296999998157844
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential_location"
+    ],
+    "scores": {
+     "credential": 0.05,
+     "credential_location": 0.97,
+     "client": 0.05,
+     "internal": 0.05,
+     "confidential": 0.11
+    },
+    "ms": 237,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 526,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "loc-ja-path",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential_location"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.07067300000198884
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential_location"
+    ],
+    "scores": {
+     "credential": 0.03,
+     "credential_location": 0.96,
+     "client": 0.04,
+     "internal": 0.26,
+     "confidential": 0.32
+    },
+    "ms": 240,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 537,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "loc-ja-sheet",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential_location"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.06485099999554222
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential_location",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.02,
+     "credential_location": 0.9,
+     "client": 0.11,
+     "internal": 0.09,
+     "confidential": 0.56
+    },
+    "ms": 244,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 545,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "loc-kube-secret",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential_location",
+    "internal"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "ms": 0.08430799999769079
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential_location",
+     "internal"
+    ],
+    "scores": {
+     "credential": 0.08,
+     "credential_location": 0.96,
+     "client": 0.14,
+     "internal": 0.96,
+     "confidential": 0.42
+    },
+    "ms": 238,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 535,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "client-known-commit",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "ms": 0.09645100000489037
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.92,
+     "internal": 0.02,
+     "confidential": 0.09
+    },
+    "ms": 218,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 519,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "client-known-issue",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "ms": 0.06576400000631111
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "client",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.95,
+     "internal": 0.05,
+     "confidential": 0.56
+    },
+    "ms": 218,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 515,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "client-known-ja",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "ms": 0.07501000000047497
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.95,
+     "internal": 0.02,
+     "confidential": 0.17
+    },
+    "ms": 220,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 527,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "client-known-ja-2",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "ms": 0.06971100000373553
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.84,
+     "internal": 0.04,
+     "confidential": 0.11
+    },
+    "ms": 230,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 537,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "client-unknown-en",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.062397000001510605
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.97,
+     "internal": 0.03,
+     "confidential": 0.38
+    },
+    "ms": 259,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 528,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "client-unknown-en-2",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.052639000001363456
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.97,
+     "internal": 0.03,
+     "confidential": 0.19
+    },
+    "ms": 253,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 513,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "client-unknown-en-3",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.06388999999762746
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "client",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.97,
+     "internal": 0.02,
+     "confidential": 0.6
+    },
+    "ms": 284,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 523,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "client-unknown-ja",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05348999999841908
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0,
+     "client": 0.95,
+     "internal": 0.01,
+     "confidential": 0.14
+    },
+    "ms": 214,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 531,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "client-unknown-ja-2",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05366099999810103
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.94,
+     "internal": 0.04,
+     "confidential": 0.22
+    },
+    "ms": 219,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 540,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "client-domain",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client",
+    "internal"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05354100000113249
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "client",
+     "internal"
+    ],
+    "scores": {
+     "credential": 0.02,
+     "credential_location": 0.08,
+     "client": 0.89,
+     "internal": 0.97,
+     "confidential": 0.47
+    },
+    "ms": 196,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 518,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "int-hostnames",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "internal"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "ms": 0.07782600000064122
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "scores": {
+     "credential": 0.02,
+     "credential_location": 0.05,
+     "client": 0.11,
+     "internal": 0.98,
+     "confidential": 0.4
+    },
+    "ms": 229,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 538,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "int-private-ip",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "internal"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.052968999996664934
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.02,
+     "client": 0.12,
+     "internal": 0.98,
+     "confidential": 0.12
+    },
+    "ms": 227,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 536,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "int-tailnet",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "internal"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05693700000119861
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "scores": {
+     "credential": 0.03,
+     "credential_location": 0.06,
+     "client": 0.1,
+     "internal": 0.94,
+     "confidential": 0.13
+    },
+    "ms": 253,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 540,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "int-channel-id",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "internal"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.0563449999972363
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "scores": {
+     "credential": 0.02,
+     "credential_location": 0.02,
+     "client": 0.06,
+     "internal": 0.98,
+     "confidential": 0.22
+    },
+    "ms": 224,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 537,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "int-ja-host",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "internal"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05557499999849824
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "scores": {
+     "credential": 0.02,
+     "credential_location": 0.05,
+     "client": 0.07,
+     "internal": 0.97,
+     "confidential": 0.48
+    },
+    "ms": 224,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 532,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "int-internal-url",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "internal"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "ms": 0.12593699999706587
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "scores": {
+     "credential": 0.03,
+     "credential_location": 0.06,
+     "client": 0.12,
+     "internal": 0.9,
+     "confidential": 0.27
+    },
+    "ms": 229,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 528,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "conf-project-known",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "confidential"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "ms": 0.06749599999602651
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.17,
+     "internal": 0.03,
+     "confidential": 0.85
+    },
+    "ms": 207,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 517,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "conf-price-quote",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "confidential",
+    "client"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05865099999937229
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "client",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0,
+     "client": 0.96,
+     "internal": 0.02,
+     "confidential": 0.96
+    },
+    "ms": 200,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 527,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "conf-revenue",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "confidential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05458199999702629
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.02,
+     "internal": 0.01,
+     "confidential": 0.98
+    },
+    "ms": 270,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 530,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "conf-unreleased",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "confidential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.07123399999545654
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.28,
+     "internal": 0.02,
+     "confidential": 0.97
+    },
+    "ms": 215,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 524,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "conf-salary",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "confidential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.07023200000548968
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.11,
+     "internal": 0.01,
+     "confidential": 0.96
+    },
+    "ms": 247,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 531,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "conf-ja-contract",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "confidential",
+    "client"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05257800000254065
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "client",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.9,
+     "internal": 0.02,
+     "confidential": 0.97
+    },
+    "ms": 228,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 545,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "conf-ja-project",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "confidential"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "ms": 0.09733299999788869
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.14,
+     "internal": 0.03,
+     "confidential": 0.66
+    },
+    "ms": 234,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 535,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "conf-ja-plan",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "confidential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05424199999833945
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.06,
+     "internal": 0.02,
+     "confidential": 0.94
+    },
+    "ms": 247,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 534,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "story-shared-channel",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client",
+    "internal",
+    "credential_location"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.060754000005545095
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential_location",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.09,
+     "credential_location": 0.98,
+     "client": 0.86,
+     "internal": 0.85,
+     "confidential": 0.69
+    },
+    "ms": 265,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 545,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "story-shared-channel-ja",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "client",
+    "internal",
+    "credential_location"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05693700000119861
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential_location",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.1,
+     "credential_location": 0.97,
+     "client": 0.92,
+     "internal": 0.75,
+     "confidential": 0.59
+    },
+    "ms": 226,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 558,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "mixed-long-commit",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.056636000001162756
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "scores": {
+     "credential": 0.45,
+     "credential_location": 0.16,
+     "client": 0.07,
+     "internal": 0.56,
+     "confidential": 0.29
+    },
+    "ms": 212,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 619,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "mixed-pr-body",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05474300000059884
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.9,
+     "internal": 0.03,
+     "confidential": 0.27
+    },
+    "ms": 218,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 556,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "mixed-ja-report",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.1917600000015227
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.98,
+     "credential_location": 0.54,
+     "client": 0.04,
+     "internal": 0.97,
+     "confidential": 0.5
+    },
+    "ms": 231,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 587,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "mixed-mcp-slack",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client",
+    "confidential"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "ms": 0.07313699999940582
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "client",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.96,
+     "internal": 0.27,
+     "confidential": 0.84
+    },
+    "ms": 236,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 531,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "mixed-mcp-email",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.06532299999526003
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.8,
+     "credential_location": 0.03,
+     "client": 0.41,
+     "internal": 0.05,
+     "confidential": 0.54
+    },
+    "ms": 211,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 565,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-commit-1",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.18841400000383146
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.03,
+     "internal": 0.02,
+     "confidential": 0.02
+    },
+    "ms": 221,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 513,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-commit-2",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.06274800000392133
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.03,
+     "internal": 0.02,
+     "confidential": 0.02
+    },
+    "ms": 275,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 517,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-commit-3",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.058900999996694736
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.03,
+     "credential_location": 0.02,
+     "client": 0.04,
+     "internal": 0.04,
+     "confidential": 0.02
+    },
+    "ms": 271,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 512,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-commit-4",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.06933999999455409
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.02,
+     "credential_location": 0.03,
+     "client": 0.04,
+     "internal": 0.08,
+     "confidential": 0.03
+    },
+    "ms": 221,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 562,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-env-example",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.19970499999908498
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.05,
+     "credential_location": 0.08,
+     "client": 0.04,
+     "internal": 0.08,
+     "confidential": 0.03
+    },
+    "ms": 311,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 553,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-env-read",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.057698999997228384
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.02,
+     "credential_location": 0.15,
+     "client": 0.05,
+     "internal": 0.03,
+     "confidential": 0.05
+    },
+    "ms": 250,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 530,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-redacted",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05014400000072783
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.1,
+     "credential_location": 0.03,
+     "client": 0.05,
+     "internal": 0.03,
+     "confidential": 0.07
+    },
+    "ms": 258,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 528,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-password-policy",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05610499999602325
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.03,
+     "internal": 0.02,
+     "confidential": 0.05
+    },
+    "ms": 199,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 527,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-docs-secrets",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.0540709999986575
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential_location"
+    ],
+    "scores": {
+     "credential": 0.02,
+     "credential_location": 0.55,
+     "client": 0.02,
+     "internal": 0.02,
+     "confidential": 0.02
+    },
+    "ms": 207,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 530,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-public-vendor",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.050965000002179295
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.02,
+     "client": 0.04,
+     "internal": 0.05,
+     "confidential": 0.23
+    },
+    "ms": 403,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 520,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-public-vendor-2",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05950199999642791
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.07,
+     "internal": 0.02,
+     "confidential": 0.33
+    },
+    "ms": 236,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 516,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-oss-mention",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.060512999996717554
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.05,
+     "internal": 0.03,
+     "confidential": 0.05
+    },
+    "ms": 223,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 529,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-public-company",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05960200000117766
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.1,
+     "internal": 0.02,
+     "confidential": 0.12
+    },
+    "ms": 227,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 519,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-example-domains",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.06857900000613881
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.02,
+     "credential_location": 0.02,
+     "client": 0.07,
+     "internal": 0.06,
+     "confidential": 0.02
+    },
+    "ms": 224,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 515,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-localhost",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.07007099999464117
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.02,
+     "client": 0.02,
+     "internal": 0.5,
+     "confidential": 0.03
+    },
+    "ms": 251,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 542,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-public-ip-doc",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.059280999994371086
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.1,
+     "internal": 0.05,
+     "confidential": 0.04
+    },
+    "ms": 259,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 525,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-hash",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.09702299999480601
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.02,
+     "credential_location": 0.01,
+     "client": 0.02,
+     "internal": 0.02,
+     "confidential": 0.03
+    },
+    "ms": 284,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 556,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-uuid",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.107162000000244
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.02,
+     "credential_location": 0.01,
+     "client": 0.05,
+     "internal": 0.06,
+     "confidential": 0.03
+    },
+    "ms": 349,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 546,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-sha256",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.054191000002902
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.02,
+     "credential_location": 0.02,
+     "client": 0.03,
+     "internal": 0.02,
+     "confidential": 0.03
+    },
+    "ms": 260,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 568,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-test-fixture",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.1215680000022985
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.65,
+     "credential_location": 0.02,
+     "client": 0.05,
+     "internal": 0.03,
+     "confidential": 0.03
+    },
+    "ms": 219,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 544,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-release-notes",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.06254699999408331
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.03,
+     "internal": 0.01,
+     "confidential": 0.05
+    },
+    "ms": 396,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 525,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-howto-token",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05692700001236517
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.02,
+     "credential_location": 0.11,
+     "client": 0.02,
+     "internal": 0.02,
+     "confidential": 0.02
+    },
+    "ms": 242,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 531,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-where-docs",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.04927200000383891
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.02,
+     "client": 0.03,
+     "internal": 0.02,
+     "confidential": 0.03
+    },
+    "ms": 195,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 523,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-security-policy",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.0590399999928195
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.03,
+     "internal": 0.03,
+     "confidential": 0.03
+    },
+    "ms": 213,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 520,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-generic-customer",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.052718999999342486
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.07,
+     "internal": 0.02,
+     "confidential": 0.05
+    },
+    "ms": 217,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 529,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-public-pricing",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.050183999992441386
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0,
+     "client": 0.03,
+     "internal": 0.01,
+     "confidential": 0.07
+    },
+    "ms": 261,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 521,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-open-roadmap",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.06620399998791981
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.02,
+     "internal": 0.02,
+     "confidential": 0.17
+    },
+    "ms": 235,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 527,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-curl-public",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.09074099999270402
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.02,
+     "credential_location": 0.01,
+     "client": 0.03,
+     "internal": 0.02,
+     "confidential": 0.01
+    },
+    "ms": 293,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 521,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-curl-post-json",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.0925439999991795
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.03,
+     "internal": 0.02,
+     "confidential": 0.01
+    },
+    "ms": 244,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 528,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-webfetch-docs",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.055743999997503124
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.02,
+     "internal": 0.02,
+     "confidential": 0.01
+    },
+    "ms": 223,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 522,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-git-push-message",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.057858999993186444
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.03,
+     "internal": 0.02,
+     "confidential": 0.05
+    },
+    "ms": 212,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 518,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-mcp-slack",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05430200000409968
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.03,
+     "internal": 0.5,
+     "confidential": 0.06
+    },
+    "ms": 225,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 525,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-mcp-email",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.052999999999883585
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.05,
+     "internal": 0.08,
+     "confidential": 0.07
+    },
+    "ms": 230,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 528,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-secret-word",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.0557740000076592
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.02,
+     "internal": 0.02,
+     "confidential": 0.03
+    },
+    "ms": 227,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 514,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-key-word",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05855999999039341
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.02,
+     "internal": 0.02,
+     "confidential": 0.03
+    },
+    "ms": 216,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 524,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-token-word",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05296000000089407
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.03,
+     "internal": 0.02,
+     "confidential": 0.03
+    },
+    "ms": 214,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 516,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-ssh-howto",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.052968999996664934
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.05,
+     "client": 0.03,
+     "internal": 0.02,
+     "confidential": 0.01
+    },
+    "ms": 264,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 537,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-ja-commit",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.0557249999983469
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.03,
+     "internal": 0.02,
+     "confidential": 0.04
+    },
+    "ms": 212,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 529,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-ja-issue",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05204799999773968
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.03,
+     "internal": 0.01,
+     "confidential": 0.02
+    },
+    "ms": 223,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 544,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-ja-docs",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05762800000957213
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.02,
+     "credential_location": 0.01,
+     "client": 0.03,
+     "internal": 0.03,
+     "confidential": 0.02
+    },
+    "ms": 237,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 517,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-ja-password-policy",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.06477099999028724
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.02,
+     "credential_location": 0.01,
+     "client": 0.02,
+     "internal": 0.02,
+     "confidential": 0.03
+    },
+    "ms": 218,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 536,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-ja-vendor",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05571500000951346
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.02,
+     "client": 0.04,
+     "internal": 0.06,
+     "confidential": 0.14
+    },
+    "ms": 234,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 537,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-ja-env",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05752800000482239
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.02,
+     "credential_location": 0.46,
+     "client": 0.04,
+     "internal": 0.03,
+     "confidential": 0.06
+    },
+    "ms": 268,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 537,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-ja-public-company",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.055695000002742745
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0,
+     "client": 0.12,
+     "internal": 0.01,
+     "confidential": 0.06
+    },
+    "ms": 252,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 541,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-ja-report",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.06079499999759719
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.02,
+     "internal": 0.02,
+     "confidential": 0.04
+    },
+    "ms": 252,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 552,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-ja-howto",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05865000000630971
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.02,
+     "credential_location": 0.14,
+     "client": 0.03,
+     "internal": 0.03,
+     "confidential": 0.02
+    },
+    "ms": 227,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 539,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-ja-generic-customer",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.06946099999186117
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0,
+     "client": 0.23,
+     "internal": 0.02,
+     "confidential": 0.07
+    },
+    "ms": 208,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 548,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-ja-release",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.050263999990420416
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.04,
+     "internal": 0.02,
+     "confidential": 0.04
+    },
+    "ms": 252,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 548,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-ja-mcp",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.06315899999754038
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.03,
+     "internal": 0.41,
+     "confidential": 0.08
+    },
+    "ms": 238,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 543,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-long-diff",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05977300000085961
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.02,
+     "internal": 0.02,
+     "confidential": 0.04
+    },
+    "ms": 221,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 642,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-config-sample",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05625599999621045
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.04,
+     "credential_location": 0.17,
+     "client": 0.03,
+     "internal": 0.11,
+     "confidential": 0.04
+    },
+    "ms": 225,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 540,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-security-fix",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05313000000023749
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.02,
+     "internal": 0.03,
+     "confidential": 0.05
+    },
+    "ms": 211,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 511,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-rotate-note",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.055373999988660216
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.02,
+     "internal": 0.02,
+     "confidential": 0.08
+    },
+    "ms": 239,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 521,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-arch-generic",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.07825700000103097
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.03,
+     "internal": 0.04,
+     "confidential": 0.2
+    },
+    "ms": 223,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 522,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-thanks-oss",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.05075500000384636
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0,
+     "client": 0.03,
+     "internal": 0.01,
+     "confidential": 0.01
+    },
+    "ms": 195,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 524,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-public-user-quote",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.0515060000034282
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.05,
+     "internal": 0.02,
+     "confidential": 0.13
+    },
+    "ms": 211,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 523,
+     "outputTokens": 87
+    }
+   }
+  },
+  {
+   "id": "ok-github-handle",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.055183999997098
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.01,
+     "credential_location": 0.01,
+     "client": 0.31,
+     "internal": 0.09,
+     "confidential": 0.03
+    },
+    "ms": 215,
+    "usage": {
+     "calls": 1,
+     "inputTokens": 516,
+     "outputTokens": 87
+    }
+   }
+  }
+ ],
+ "date": "2026-09-30",
+ "machine": "hosted",
+ "wallSeconds": 30
+}

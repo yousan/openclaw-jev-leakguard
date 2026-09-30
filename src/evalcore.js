@@ -25,9 +25,11 @@ export async function runCases(cases, cfg, judge, { onProgress } = {}) {
     const rulesMs = performance.now() - t;
     let model = null;
     if (judge) {
+      const before = judge.usage && { ...judge.usage };
       const r = await evaluate({ text: c.text, tier: 'public' }, cfg, { mode: 'model', judge });
       if (r.error) throw new Error(`${c.id}: ${r.error}`);
       model = { flagged: r.action !== 'allow', categories: r.findings.map((f) => f.category), scores: r.scores, ms: r.latencyMs };
+      if (before) model.usage = { calls: judge.usage.calls - before.calls, inputTokens: judge.usage.inputTokens - before.inputTokens, outputTokens: judge.usage.outputTokens - before.outputTokens };
     }
     results.push({ id: c.id, lang: c.lang, label: c.label, cat: c.cat || [], known: c.known, rules: { flagged: rules.length > 0, categories: [...new Set(rules)], ms: rulesMs }, model });
     onProgress?.(results.length, cases.length);
