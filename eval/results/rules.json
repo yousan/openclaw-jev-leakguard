@@ -1,0 +1,1556 @@
+{
+ "label": "rules",
+ "backend": "none",
+ "via": "http",
+ "date": "2026-09-30",
+ "machine": "",
+ "seconds": 0,
+ "results": [
+  {
+   "id": "cred-aws-env",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 2.1799999999999926
+   },
+   "model": null
+  },
+  {
+   "id": "cred-gh-token-issue",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 1.0655540000000059
+   },
+   "model": null
+  },
+  {
+   "id": "cred-slack-bot",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.09671199999999658
+   },
+   "model": null
+  },
+  {
+   "id": "cred-openai-py",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.45050700000000177
+   },
+   "model": null
+  },
+  {
+   "id": "cred-anthropic-curl",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.3261229999999955
+   },
+   "model": null
+  },
+  {
+   "id": "cred-stripe-yaml",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.13655699999999626
+   },
+   "model": null
+  },
+  {
+   "id": "cred-pem",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.0664950000000033
+   },
+   "model": null
+  },
+  {
+   "id": "cred-jwt-log",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.044443999999998596
+   },
+   "model": null
+  },
+  {
+   "id": "cred-db-url",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.24038199999999676
+   },
+   "model": null
+  },
+  {
+   "id": "cred-password-prose",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.8686730000000011
+   },
+   "model": null
+  },
+  {
+   "id": "cred-password-prose-2",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.04274999999999807
+   },
+   "model": null
+  },
+  {
+   "id": "cred-discord-webhook",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.04812099999999475
+   },
+   "model": null
+  },
+  {
+   "id": "cred-hex-apikey",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.09261500000000922
+   },
+   "model": null
+  },
+  {
+   "id": "cred-ja-password",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.039133000000006746
+   },
+   "model": null
+  },
+  {
+   "id": "cred-ja-token",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.04590600000000222
+   },
+   "model": null
+  },
+  {
+   "id": "cred-ja-aws",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.03939400000000148
+   },
+   "model": null
+  },
+  {
+   "id": "cred-spelled-out",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.04987400000000264
+   },
+   "model": null
+  },
+  {
+   "id": "cred-ja-spelled",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.030677999999994654
+   },
+   "model": null
+  },
+  {
+   "id": "loc-env-path",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential_location",
+    "internal"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "ms": 0.04926299999999628
+   },
+   "model": null
+  },
+  {
+   "id": "loc-vault",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential_location"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.02957600000000582
+   },
+   "model": null
+  },
+  {
+   "id": "loc-bucket",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential_location"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.036307999999991125
+   },
+   "model": null
+  },
+  {
+   "id": "loc-home-dir",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential_location"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.03039700000000778
+   },
+   "model": null
+  },
+  {
+   "id": "loc-ja-path",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential_location"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.027221000000011486
+   },
+   "model": null
+  },
+  {
+   "id": "loc-ja-sheet",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential_location"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.02926499999999521
+   },
+   "model": null
+  },
+  {
+   "id": "loc-kube-secret",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential_location",
+    "internal"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "ms": 0.031208999999989828
+   },
+   "model": null
+  },
+  {
+   "id": "client-known-commit",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "ms": 0.04350099999999202
+   },
+   "model": null
+  },
+  {
+   "id": "client-known-issue",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "ms": 0.03412499999998886
+   },
+   "model": null
+  },
+  {
+   "id": "client-known-ja",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "ms": 0.04130800000000079
+   },
+   "model": null
+  },
+  {
+   "id": "client-known-ja-2",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "ms": 0.026178999999999064
+   },
+   "model": null
+  },
+  {
+   "id": "client-unknown-en",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.04367200000000082
+   },
+   "model": null
+  },
+  {
+   "id": "client-unknown-en-2",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.026569999999992433
+   },
+   "model": null
+  },
+  {
+   "id": "client-unknown-en-3",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.03581799999999191
+   },
+   "model": null
+  },
+  {
+   "id": "client-unknown-ja",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.026289000000005558
+   },
+   "model": null
+  },
+  {
+   "id": "client-unknown-ja-2",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.020579000000012115
+   },
+   "model": null
+  },
+  {
+   "id": "client-domain",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client",
+    "internal"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.03666900000000339
+   },
+   "model": null
+  },
+  {
+   "id": "int-hostnames",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "internal"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "ms": 0.02777200000001301
+   },
+   "model": null
+  },
+  {
+   "id": "int-private-ip",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "internal"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.035026000000002
+   },
+   "model": null
+  },
+  {
+   "id": "int-tailnet",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "internal"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.02396500000000401
+   },
+   "model": null
+  },
+  {
+   "id": "int-channel-id",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "internal"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.024446000000011736
+   },
+   "model": null
+  },
+  {
+   "id": "int-ja-host",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "internal"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.03313200000000904
+   },
+   "model": null
+  },
+  {
+   "id": "int-internal-url",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "internal"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "ms": 0.0292349999999999
+   },
+   "model": null
+  },
+  {
+   "id": "conf-project-known",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "confidential"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "ms": 0.03946400000000949
+   },
+   "model": null
+  },
+  {
+   "id": "conf-price-quote",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "confidential",
+    "client"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.022863000000000966
+   },
+   "model": null
+  },
+  {
+   "id": "conf-revenue",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "confidential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.03362300000000573
+   },
+   "model": null
+  },
+  {
+   "id": "conf-unreleased",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "confidential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.025569000000004394
+   },
+   "model": null
+  },
+  {
+   "id": "conf-salary",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "confidential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.03382300000001237
+   },
+   "model": null
+  },
+  {
+   "id": "conf-ja-contract",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "confidential",
+    "client"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.046065999999996166
+   },
+   "model": null
+  },
+  {
+   "id": "conf-ja-project",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "confidential"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "ms": 0.040285999999994715
+   },
+   "model": null
+  },
+  {
+   "id": "conf-ja-plan",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "confidential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.04603699999999833
+   },
+   "model": null
+  },
+  {
+   "id": "story-shared-channel",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client",
+    "internal",
+    "credential_location"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.032911999999996056
+   },
+   "model": null
+  },
+  {
+   "id": "story-shared-channel-ja",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "client",
+    "internal",
+    "credential_location"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.027752999999989925
+   },
+   "model": null
+  },
+  {
+   "id": "mixed-long-commit",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.02943500000000654
+   },
+   "model": null
+  },
+  {
+   "id": "mixed-pr-body",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.02926499999999521
+   },
+   "model": null
+  },
+  {
+   "id": "mixed-ja-report",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.4108719999999977
+   },
+   "model": null
+  },
+  {
+   "id": "mixed-mcp-slack",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client",
+    "confidential"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "ms": 0.04119699999999682
+   },
+   "model": null
+  },
+  {
+   "id": "mixed-mcp-email",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.03785100000000341
+   },
+   "model": null
+  },
+  {
+   "id": "ok-commit-1",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.036799000000002025
+   },
+   "model": null
+  },
+  {
+   "id": "ok-commit-2",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.028803999999993835
+   },
+   "model": null
+  },
+  {
+   "id": "ok-commit-3",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 1.9039709999999985
+   },
+   "model": null
+  },
+  {
+   "id": "ok-commit-4",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.035777999999993426
+   },
+   "model": null
+  },
+  {
+   "id": "ok-env-example",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.23595299999999497
+   },
+   "model": null
+  },
+  {
+   "id": "ok-env-read",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.027301999999991722
+   },
+   "model": null
+  },
+  {
+   "id": "ok-redacted",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.017943000000002485
+   },
+   "model": null
+  },
+  {
+   "id": "ok-password-policy",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.02661000000000513
+   },
+   "model": null
+  },
+  {
+   "id": "ok-docs-secrets",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.02123999999999171
+   },
+   "model": null
+  },
+  {
+   "id": "ok-public-vendor",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.017462999999992235
+   },
+   "model": null
+  },
+  {
+   "id": "ok-public-vendor-2",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.016290999999995392
+   },
+   "model": null
+  },
+  {
+   "id": "ok-oss-mention",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.027111000000004992
+   },
+   "model": null
+  },
+  {
+   "id": "ok-public-company",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.019455999999991036
+   },
+   "model": null
+  },
+  {
+   "id": "ok-example-domains",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.016912000000004923
+   },
+   "model": null
+  },
+  {
+   "id": "ok-localhost",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.027681999999998652
+   },
+   "model": null
+  },
+  {
+   "id": "ok-public-ip-doc",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.02118999999999005
+   },
+   "model": null
+  },
+  {
+   "id": "ok-hash",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.01755299999999238
+   },
+   "model": null
+  },
+  {
+   "id": "ok-uuid",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.02436500000000308
+   },
+   "model": null
+  },
+  {
+   "id": "ok-sha256",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.02091900000000635
+   },
+   "model": null
+  },
+  {
+   "id": "ok-test-fixture",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.07757600000000764
+   },
+   "model": null
+  },
+  {
+   "id": "ok-release-notes",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.020549000000002593
+   },
+   "model": null
+  },
+  {
+   "id": "ok-howto-token",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.027482000000006224
+   },
+   "model": null
+  },
+  {
+   "id": "ok-where-docs",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.02578900000000317
+   },
+   "model": null
+  },
+  {
+   "id": "ok-security-policy",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.019796999999996956
+   },
+   "model": null
+  },
+  {
+   "id": "ok-generic-customer",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.017282999999991944
+   },
+   "model": null
+  },
+  {
+   "id": "ok-public-pricing",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.01651100000000838
+   },
+   "model": null
+  },
+  {
+   "id": "ok-open-roadmap",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.026580000000009818
+   },
+   "model": null
+  },
+  {
+   "id": "ok-curl-public",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.018675000000001774
+   },
+   "model": null
+  },
+  {
+   "id": "ok-curl-post-json",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.019647000000006187
+   },
+   "model": null
+  },
+  {
+   "id": "ok-webfetch-docs",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.07088299999999492
+   },
+   "model": null
+  },
+  {
+   "id": "ok-git-push-message",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.022211999999996124
+   },
+   "model": null
+  },
+  {
+   "id": "ok-mcp-slack",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.02154000000000167
+   },
+   "model": null
+  },
+  {
+   "id": "ok-mcp-email",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.02307299999999657
+   },
+   "model": null
+  },
+  {
+   "id": "ok-secret-word",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.02226100000000031
+   },
+   "model": null
+  },
+  {
+   "id": "ok-key-word",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.01982700000000648
+   },
+   "model": null
+  },
+  {
+   "id": "ok-token-word",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.02076900000000137
+   },
+   "model": null
+  },
+  {
+   "id": "ok-ssh-howto",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.02202200000000687
+   },
+   "model": null
+  },
+  {
+   "id": "ok-ja-commit",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.021932000000006724
+   },
+   "model": null
+  },
+  {
+   "id": "ok-ja-issue",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.019145999999992114
+   },
+   "model": null
+  },
+  {
+   "id": "ok-ja-docs",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.017662999999998874
+   },
+   "model": null
+  },
+  {
+   "id": "ok-ja-password-policy",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.022192000000003986
+   },
+   "model": null
+  },
+  {
+   "id": "ok-ja-vendor",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.024265999999997234
+   },
+   "model": null
+  },
+  {
+   "id": "ok-ja-env",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.01843499999999665
+   },
+   "model": null
+  },
+  {
+   "id": "ok-ja-public-company",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.016581999999999653
+   },
+   "model": null
+  },
+  {
+   "id": "ok-ja-report",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.01679099999999778
+   },
+   "model": null
+  },
+  {
+   "id": "ok-ja-howto",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.020458000000004972
+   },
+   "model": null
+  },
+  {
+   "id": "ok-ja-generic-customer",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.021088999999989255
+   },
+   "model": null
+  },
+  {
+   "id": "ok-ja-release",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.019066000000009353
+   },
+   "model": null
+  },
+  {
+   "id": "ok-ja-mcp",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.018034000000000106
+   },
+   "model": null
+  },
+  {
+   "id": "ok-long-diff",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.027632000000011203
+   },
+   "model": null
+  },
+  {
+   "id": "ok-config-sample",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.02536799999998607
+   },
+   "model": null
+  },
+  {
+   "id": "ok-security-fix",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.01925600000001282
+   },
+   "model": null
+  },
+  {
+   "id": "ok-rotate-note",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.02163099999999929
+   },
+   "model": null
+  },
+  {
+   "id": "ok-arch-generic",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.023143000000004577
+   },
+   "model": null
+  },
+  {
+   "id": "ok-thanks-oss",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.02306400000000508
+   },
+   "model": null
+  },
+  {
+   "id": "ok-public-user-quote",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.01799400000000162
+   },
+   "model": null
+  },
+  {
+   "id": "ok-github-handle",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.017172000000002186
+   },
+   "model": null
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "openclaw-jev-leakguard",
+  "version": "0.1.0",
+  "description": "Jev × OpenClaw: stop your agent from posting credentials, client names and internal details to the wrong channel. Judged by your decisionModel — hosted Jev, or Kev / ONNX on your own machine.",
+  "type": "module",
+  "license": "MIT",
+  "author": "yousan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yousan/openclaw-jev-leakguard.git"
+  },
+  "keywords": [
+    "openclaw",
+    "openclaw-plugin",
+    "jev",
+    "kev",
+    "typesafe",
+    "decision-model",
+    "guardrails",
+    "dlp",
+    "secrets",
+    "ai-agents"
+  ],
+  "files": [
+    "src",
+    "openclaw",
+    "openclaw.plugin.json",
+    "examples",
+    "eval/cases.js",
+    "eval/fakes.js",
+    "eval/config.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "eval:rules": "node eval/run.js --backend none --label rules",
+    "eval": "node eval/openclaw-eval.js",
+    "report": "node eval/report.js --readme"
+  },
+  "openclaw": {
+    "extensions": [
+      "./openclaw/index.js"
+    ],
+    "compat": {
+      "pluginApi": ">=2026.9.6"
+    },
+    "build": {
+      "openclawVersion": "2026.9.6"
+    },
+    "install": {
+      "npmSpec": "openclaw-jev-leakguard",
+      "minHostVersion": ">=2026.9.6"
+    }
+  }
+}

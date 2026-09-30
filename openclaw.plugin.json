@@ -1,0 +1,227 @@
+{
+  "id": "jev-leakguard",
+  "name": "Jev Leakguard",
+  "description": "Stops an agent from posting credentials, client names or internal details to the wrong channel. Judged by your decision model: Jev, or Kev on your own machine.",
+  "categories": [
+    "security"
+  ],
+  "enabledByDefault": false,
+  "activation": {
+    "onStartup": true,
+    "onCapabilities": [
+      "hook"
+    ]
+  },
+  "uiHints": {
+    "terms": {
+      "label": "Things that must not leak",
+      "help": "clients, internal (hosts, domains), confidential (project names), patterns (regex). Matched locally; sent to the judge only when it is local."
+    },
+    "destinations": {
+      "label": "Destinations",
+      "help": "[{ match: \"discord:channel:123\", tier: \"public|shared|private\" }]. Ids are <channel>:<target>; * is a wildcard. First match wins."
+    },
+    "defaultTier": {
+      "label": "Tier for unlisted destinations",
+      "help": "shared by default."
+    },
+    "policy": {
+      "label": "Policy per tier",
+      "help": "{ public: { client: \"block\" }, shared: { client: \"ask\" }, ... } Categories: credential, credential_location, client, internal, confidential. Actions: block, ask, allow.",
+      "advanced": true
+    },
+    "threshold": {
+      "label": "Probability threshold",
+      "help": "A category counts when the judge says yes with at least this probability. Default 0.5.",
+      "advanced": true
+    },
+    "mode": {
+      "label": "Mode",
+      "help": "hybrid (rules, then the decision model), rules, or model.",
+      "advanced": true
+    },
+    "onError": {
+      "label": "When the judge is unavailable",
+      "help": "block (default), ask, or allow.",
+      "advanced": true
+    },
+    "deadlineMs": {
+      "label": "Judge deadline (ms)",
+      "help": "After this the message is held back. Must stay below OpenClaw's 15 s hook timeout.",
+      "advanced": true
+    }
+  },
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "terms": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "clients": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "internal": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "confidential": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "patterns": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "regex"
+              ],
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string",
+                  "enum": [
+                    "credential",
+                    "credential_location",
+                    "client",
+                    "internal",
+                    "confidential"
+                  ]
+                },
+                "regex": {
+                  "type": "string"
+                },
+                "flags": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "destinations": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "match",
+            "tier"
+          ],
+          "properties": {
+            "match": {
+              "type": "string"
+            },
+            "tier": {
+              "type": "string",
+              "enum": [
+                "public",
+                "shared",
+                "private"
+              ]
+            }
+          }
+        }
+      },
+      "defaultTier": {
+        "type": "string",
+        "enum": [
+          "public",
+          "shared",
+          "private"
+        ]
+      },
+      "policy": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "public": {
+            "$ref": "#/$defs/tierPolicy"
+          },
+          "shared": {
+            "$ref": "#/$defs/tierPolicy"
+          },
+          "private": {
+            "$ref": "#/$defs/tierPolicy"
+          }
+        }
+      },
+      "threshold": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "thresholds": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      },
+      "mode": {
+        "type": "string",
+        "enum": [
+          "hybrid",
+          "rules",
+          "model"
+        ]
+      },
+      "onError": {
+        "type": "string",
+        "enum": [
+          "block",
+          "ask",
+          "allow"
+        ]
+      },
+      "deadlineMs": {
+        "type": "integer",
+        "minimum": 1000,
+        "maximum": 14000
+      }
+    },
+    "$defs": {
+      "tierPolicy": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "credential": {
+            "$ref": "#/$defs/action"
+          },
+          "credential_location": {
+            "$ref": "#/$defs/action"
+          },
+          "client": {
+            "$ref": "#/$defs/action"
+          },
+          "internal": {
+            "$ref": "#/$defs/action"
+          },
+          "confidential": {
+            "$ref": "#/$defs/action"
+          }
+        }
+      },
+      "action": {
+        "type": "string",
+        "enum": [
+          "block",
+          "ask",
+          "allow"
+        ]
+      }
+    }
+  }
+}

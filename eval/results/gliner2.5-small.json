@@ -1,0 +1,3180 @@
+{
+ "label": "gliner2.5-small",
+ "backend": "onnx/gliner2.5-small-v1",
+ "local": true,
+ "via": "openclaw-decisionModel",
+ "seconds": 10,
+ "results": [
+  {
+   "id": "cred-aws-env",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 1.9618189999600872
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.934,
+     "credential_location": 0.926,
+     "client": 0.16,
+     "internal": 0.784,
+     "confidential": 0.729
+    },
+    "ms": 98
+   }
+  },
+  {
+   "id": "cred-gh-token-issue",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.6723139999667183
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location"
+    ],
+    "scores": {
+     "credential": 0.98,
+     "credential_location": 0.673,
+     "client": 0.153,
+     "internal": 0.483,
+     "confidential": 0.265
+    },
+    "ms": 87
+   }
+  },
+  {
+   "id": "cred-slack-bot",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.15396000002510846
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.973,
+     "credential_location": 0.248,
+     "client": 0.126,
+     "internal": 0.522,
+     "confidential": 0.572
+    },
+    "ms": 83
+   }
+  },
+  {
+   "id": "cred-openai-py",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.5773739999858662
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "scores": {
+     "credential": 0.489,
+     "credential_location": 0.078,
+     "client": 0.984,
+     "internal": 0.32,
+     "confidential": 0.388
+    },
+    "ms": 95
+   }
+  },
+  {
+   "id": "cred-anthropic-curl",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.5864509999519214
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.926,
+     "credential_location": 0.411,
+     "client": 0.174,
+     "internal": 0.613,
+     "confidential": 0.76
+    },
+    "ms": 97
+   }
+  },
+  {
+   "id": "cred-stripe-yaml",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.09773400006815791
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "client",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.969,
+     "credential_location": 0.24,
+     "client": 0.794,
+     "internal": 0.412,
+     "confidential": 0.797
+    },
+    "ms": 78
+   }
+  },
+  {
+   "id": "cred-pem",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.15936900000087917
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.935,
+     "credential_location": 0.736,
+     "client": 0.311,
+     "internal": 0.789,
+     "confidential": 0.86
+    },
+    "ms": 215
+   }
+  },
+  {
+   "id": "cred-jwt-log",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.10237300000153482
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.955,
+     "credential_location": 0.592,
+     "client": 0.204,
+     "internal": 0.669,
+     "confidential": 0.775
+    },
+    "ms": 116
+   }
+  },
+  {
+   "id": "cred-db-url",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.38525399996433407
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.733,
+     "credential_location": 0.758,
+     "client": 0.623,
+     "internal": 0.928,
+     "confidential": 0.801
+    },
+    "ms": 73
+   }
+  },
+  {
+   "id": "cred-password-prose",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.6111070000333712
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.913,
+     "credential_location": 0.721,
+     "client": 0.357,
+     "internal": 0.914,
+     "confidential": 0.703
+    },
+    "ms": 76
+   }
+  },
+  {
+   "id": "cred-password-prose-2",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.07113399996887892
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.912,
+     "credential_location": 0.764,
+     "client": 0.352,
+     "internal": 0.836,
+     "confidential": 0.869
+    },
+    "ms": 68
+   }
+  },
+  {
+   "id": "cred-discord-webhook",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.1221699999878183
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.28,
+     "credential_location": 0.123,
+     "client": 0.098,
+     "internal": 0.532,
+     "confidential": 0.54
+    },
+    "ms": 104
+   }
+  },
+  {
+   "id": "cred-hex-apikey",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.33746299997437745
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.96,
+     "credential_location": 0.613,
+     "client": 0.065,
+     "internal": 0.524,
+     "confidential": 0.61
+    },
+    "ms": 73
+   }
+  },
+  {
+   "id": "cred-ja-password",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.12004499998874962
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.844,
+     "credential_location": 0.83,
+     "client": 0.123,
+     "internal": 0.713,
+     "confidential": 0.796
+    },
+    "ms": 75
+   }
+  },
+  {
+   "id": "cred-ja-token",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.18519800005014986
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.881,
+     "credential_location": 0.71,
+     "client": 0.526,
+     "internal": 0.851,
+     "confidential": 0.9
+    },
+    "ms": 91
+   }
+  },
+  {
+   "id": "cred-ja-aws",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.07794600003398955
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.878,
+     "credential_location": 0.571,
+     "client": 0.25,
+     "internal": 0.792,
+     "confidential": 0.763
+    },
+    "ms": 94
+   }
+  },
+  {
+   "id": "cred-spelled-out",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.06469199992716312
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.853,
+     "credential_location": 0.309,
+     "client": 0.188,
+     "internal": 0.429,
+     "confidential": 0.415
+    },
+    "ms": 84
+   }
+  },
+  {
+   "id": "cred-ja-spelled",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.09044000005815178
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.824,
+     "credential_location": 0.785,
+     "client": 0.154,
+     "internal": 0.656,
+     "confidential": 0.65
+    },
+    "ms": 77
+   }
+  },
+  {
+   "id": "loc-env-path",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential_location",
+    "internal"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "ms": 0.12285000004339963
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.911,
+     "credential_location": 0.981,
+     "client": 0.652,
+     "internal": 0.974,
+     "confidential": 0.942
+    },
+    "ms": 72
+   }
+  },
+  {
+   "id": "loc-vault",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential_location"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.07987000001594424
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.973,
+     "credential_location": 0.986,
+     "client": 0.306,
+     "internal": 0.761,
+     "confidential": 0.886
+    },
+    "ms": 71
+   }
+  },
+  {
+   "id": "loc-bucket",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential_location"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.06949100003112108
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.732,
+     "credential_location": 0.936,
+     "client": 0.371,
+     "internal": 0.834,
+     "confidential": 0.727
+    },
+    "ms": 73
+   }
+  },
+  {
+   "id": "loc-home-dir",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential_location"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.08554999995976686
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.894,
+     "credential_location": 0.963,
+     "client": 0.874,
+     "internal": 0.943,
+     "confidential": 0.797
+    },
+    "ms": 67
+   }
+  },
+  {
+   "id": "loc-ja-path",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential_location"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.09907599992584437
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.929,
+     "credential_location": 0.958,
+     "client": 0.429,
+     "internal": 0.977,
+     "confidential": 0.991
+    },
+    "ms": 77
+   }
+  },
+  {
+   "id": "loc-ja-sheet",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential_location"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.08959800004959106
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.806,
+     "credential_location": 0.604,
+     "client": 0.608,
+     "internal": 0.714,
+     "confidential": 0.971
+    },
+    "ms": 79
+   }
+  },
+  {
+   "id": "loc-kube-secret",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential_location",
+    "internal"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "ms": 0.09916700003668666
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.972,
+     "credential_location": 0.955,
+     "client": 0.452,
+     "internal": 0.923,
+     "confidential": 0.944
+    },
+    "ms": 76
+   }
+  },
+  {
+   "id": "client-known-commit",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "ms": 0.12042599997948855
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.44,
+     "credential_location": 0.17,
+     "client": 0.206,
+     "internal": 0.338,
+     "confidential": 0.54
+    },
+    "ms": 70
+   }
+  },
+  {
+   "id": "client-known-issue",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "ms": 0.10384500003419816
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.856,
+     "credential_location": 0.452,
+     "client": 0.755,
+     "internal": 0.71,
+     "confidential": 0.769
+    },
+    "ms": 70
+   }
+  },
+  {
+   "id": "client-known-ja",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "ms": 0.12506500002928078
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.805,
+     "credential_location": 0.718,
+     "client": 0.335,
+     "internal": 0.603,
+     "confidential": 0.85
+    },
+    "ms": 82
+   }
+  },
+  {
+   "id": "client-known-ja-2",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "ms": 0.06827799999155104
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.454,
+     "credential_location": 0.311,
+     "client": 0.082,
+     "internal": 0.365,
+     "confidential": 0.662
+    },
+    "ms": 83
+   }
+  },
+  {
+   "id": "client-unknown-en",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.07280700001865625
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.616,
+     "credential_location": 0.392,
+     "client": 0.907,
+     "internal": 0.637,
+     "confidential": 0.784
+    },
+    "ms": 64
+   }
+  },
+  {
+   "id": "client-unknown-en-2",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.07639299996662885
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "scores": {
+     "credential": 0.182,
+     "credential_location": 0.032,
+     "client": 0.911,
+     "internal": 0.223,
+     "confidential": 0.476
+    },
+    "ms": 65
+   }
+  },
+  {
+   "id": "client-unknown-en-3",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.10363400005735457
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.465,
+     "credential_location": 0.369,
+     "client": 0.804,
+     "internal": 0.521,
+     "confidential": 0.702
+    },
+    "ms": 72
+   }
+  },
+  {
+   "id": "client-unknown-ja",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.12862100009806454
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.387,
+     "credential_location": 0.159,
+     "client": 0.613,
+     "internal": 0.519,
+     "confidential": 0.827
+    },
+    "ms": 79
+   }
+  },
+  {
+   "id": "client-unknown-ja-2",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.12030499998945743
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.675,
+     "credential_location": 0.617,
+     "client": 0.179,
+     "internal": 0.663,
+     "confidential": 0.95
+    },
+    "ms": 90
+   }
+  },
+  {
+   "id": "client-domain",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client",
+    "internal"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.06511199998203665
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.758,
+     "credential_location": 0.611,
+     "client": 0.837,
+     "internal": 0.699,
+     "confidential": 0.747
+    },
+    "ms": 68
+   }
+  },
+  {
+   "id": "int-hostnames",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "internal"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "ms": 0.12466400000266731
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.708,
+     "credential_location": 0.733,
+     "client": 0.697,
+     "internal": 0.881,
+     "confidential": 0.665
+    },
+    "ms": 85
+   }
+  },
+  {
+   "id": "int-private-ip",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "internal"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.15053199999965727
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.807,
+     "credential_location": 0.644,
+     "client": 0.178,
+     "internal": 0.702,
+     "confidential": 0.518
+    },
+    "ms": 74
+   }
+  },
+  {
+   "id": "int-tailnet",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "internal"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.10207199992146343
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "scores": {
+     "credential": 0.271,
+     "credential_location": 0.146,
+     "client": 0.043,
+     "internal": 0.584,
+     "confidential": 0.437
+    },
+    "ms": 91
+   }
+  },
+  {
+   "id": "int-channel-id",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "internal"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.10177100007422268
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.841,
+     "credential_location": 0.482,
+     "client": 0.309,
+     "internal": 0.727,
+     "confidential": 0.812
+    },
+    "ms": 81
+   }
+  },
+  {
+   "id": "int-ja-host",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "internal"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.16570100001990795
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.689,
+     "credential_location": 0.602,
+     "client": 0.854,
+     "internal": 0.989,
+     "confidential": 0.836
+    },
+    "ms": 75
+   }
+  },
+  {
+   "id": "int-internal-url",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "internal"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
+    "ms": 0.07500100007746369
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.375,
+     "credential_location": 0.126,
+     "client": 0.04,
+     "internal": 0.459,
+     "confidential": 0.729
+    },
+    "ms": 79
+   }
+  },
+  {
+   "id": "conf-project-known",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "confidential"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "ms": 0.12035600002855062
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.776,
+     "credential_location": 0.516,
+     "client": 0.346,
+     "internal": 0.744,
+     "confidential": 0.994
+    },
+    "ms": 66
+   }
+  },
+  {
+   "id": "conf-price-quote",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "confidential",
+    "client"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.10484699998050928
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.465,
+     "credential_location": 0.032,
+     "client": 0.103,
+     "internal": 0.132,
+     "confidential": 0.451
+    },
+    "ms": 70
+   }
+  },
+  {
+   "id": "conf-revenue",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "confidential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.20330199995078146
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.499,
+     "credential_location": 0.271,
+     "client": 0.283,
+     "internal": 0.958,
+     "confidential": 0.661
+    },
+    "ms": 72
+   }
+  },
+  {
+   "id": "conf-unreleased",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "confidential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.09409700008109212
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.483,
+     "credential_location": 0.247,
+     "client": 0.773,
+     "internal": 0.543,
+     "confidential": 0.995
+    },
+    "ms": 77
+   }
+  },
+  {
+   "id": "conf-salary",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "confidential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.22441200003959239
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.5,
+     "credential_location": 0.269,
+     "client": 0.806,
+     "internal": 0.684,
+     "confidential": 0.968
+    },
+    "ms": 86
+   }
+  },
+  {
+   "id": "conf-ja-contract",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "confidential",
+    "client"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.12764899991452694
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "client",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.517,
+     "credential_location": 0.357,
+     "client": 0.764,
+     "internal": 0.489,
+     "confidential": 0.985
+    },
+    "ms": 95
+   }
+  },
+  {
+   "id": "conf-ja-project",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "confidential"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "ms": 0.19093800010159612
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.243,
+     "credential_location": 0.051,
+     "client": 0.026,
+     "internal": 0.187,
+     "confidential": 0.63
+    },
+    "ms": 75
+   }
+  },
+  {
+   "id": "conf-ja-plan",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "confidential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.09812400001101196
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.369,
+     "credential_location": 0.354,
+     "client": 0.19,
+     "internal": 0.406,
+     "confidential": 0.863
+    },
+    "ms": 83
+   }
+  },
+  {
+   "id": "story-shared-channel",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client",
+    "internal",
+    "credential_location"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.09822399995755404
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.909,
+     "credential_location": 0.934,
+     "client": 0.806,
+     "internal": 0.957,
+     "confidential": 0.867
+    },
+    "ms": 77
+   }
+  },
+  {
+   "id": "story-shared-channel-ja",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "client",
+    "internal",
+    "credential_location"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.0818740000249818
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.925,
+     "credential_location": 0.968,
+     "client": 0.875,
+     "internal": 0.975,
+     "confidential": 0.972
+    },
+    "ms": 141
+   }
+  },
+  {
+   "id": "mixed-long-commit",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.14790800004266202
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal"
+    ],
+    "scores": {
+     "credential": 0.839,
+     "credential_location": 0.502,
+     "client": 0.321,
+     "internal": 0.838,
+     "confidential": 0.391
+    },
+    "ms": 156
+   }
+  },
+  {
+   "id": "mixed-pr-body",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client"
+   ],
+   "known": false,
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.12153899995610118
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.135,
+     "credential_location": 0.058,
+     "client": 0.195,
+     "internal": 0.313,
+     "confidential": 0.474
+    },
+    "ms": 105
+   }
+  },
+  {
+   "id": "mixed-ja-report",
+   "lang": "ja",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.36225000000558794
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.433,
+     "credential_location": 0.438,
+     "client": 0.267,
+     "internal": 0.681,
+     "confidential": 0.713
+    },
+    "ms": 105
+   }
+  },
+  {
+   "id": "mixed-mcp-slack",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "client",
+    "confidential"
+   ],
+   "known": true,
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "ms": 0.08031099999789149
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.385,
+     "credential_location": 0.303,
+     "client": 0.411,
+     "internal": 0.641,
+     "confidential": 0.783
+    },
+    "ms": 82
+   }
+  },
+  {
+   "id": "mixed-mcp-email",
+   "lang": "en",
+   "label": "leak",
+   "cat": [
+    "credential"
+   ],
+   "rules": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "ms": 0.1609930000267923
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.957,
+     "credential_location": 0.49,
+     "client": 0.566,
+     "internal": 0.727,
+     "confidential": 0.653
+    },
+    "ms": 132
+   }
+  },
+  {
+   "id": "ok-commit-1",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.172954999958165
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.076,
+     "credential_location": 0.007,
+     "client": 0.01,
+     "internal": 0.057,
+     "confidential": 0.125
+    },
+    "ms": 80
+   }
+  },
+  {
+   "id": "ok-commit-2",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.07056299992837012
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.821,
+     "credential_location": 0.819,
+     "client": 0.752,
+     "internal": 0.736,
+     "confidential": 0.721
+    },
+    "ms": 93
+   }
+  },
+  {
+   "id": "ok-commit-3",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.13432199996896088
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.382,
+     "credential_location": 0.056,
+     "client": 0.053,
+     "internal": 0.369,
+     "confidential": 0.335
+    },
+    "ms": 77
+   }
+  },
+  {
+   "id": "ok-commit-4",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.1724439999088645
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "client",
+     "internal"
+    ],
+    "scores": {
+     "credential": 0.535,
+     "credential_location": 0.513,
+     "client": 0.953,
+     "internal": 0.585,
+     "confidential": 0.466
+    },
+    "ms": 140
+   }
+  },
+  {
+   "id": "ok-env-example",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.5195850000018254
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.976,
+     "credential_location": 0.917,
+     "client": 0.675,
+     "internal": 0.883,
+     "confidential": 0.81
+    },
+    "ms": 99
+   }
+  },
+  {
+   "id": "ok-env-read",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.10378500004298985
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.973,
+     "credential_location": 0.703,
+     "client": 0.242,
+     "internal": 0.676,
+     "confidential": 0.676
+    },
+    "ms": 87
+   }
+  },
+  {
+   "id": "ok-redacted",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.11070799990557134
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.97,
+     "credential_location": 0.737,
+     "client": 0.44,
+     "internal": 0.637,
+     "confidential": 0.69
+    },
+    "ms": 82
+   }
+  },
+  {
+   "id": "ok-password-policy",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.1315770000219345
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.822,
+     "credential_location": 0.201,
+     "client": 0.043,
+     "internal": 0.224,
+     "confidential": 0.406
+    },
+    "ms": 80
+   }
+  },
+  {
+   "id": "ok-docs-secrets",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.12243999994825572
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.834,
+     "credential_location": 0.941,
+     "client": 0.054,
+     "internal": 0.504,
+     "confidential": 0.552
+    },
+    "ms": 84
+   }
+  },
+  {
+   "id": "ok-public-vendor",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.07663400005549192
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.319,
+     "credential_location": 0.188,
+     "client": 0.398,
+     "internal": 0.343,
+     "confidential": 0.205
+    },
+    "ms": 81
+   }
+  },
+  {
+   "id": "ok-public-vendor-2",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.13324999995529652
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "client"
+    ],
+    "scores": {
+     "credential": 0.651,
+     "credential_location": 0.161,
+     "client": 0.69,
+     "internal": 0.408,
+     "confidential": 0.494
+    },
+    "ms": 77
+   }
+  },
+  {
+   "id": "ok-oss-mention",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.092843999969773
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.625,
+     "credential_location": 0.507,
+     "client": 0.169,
+     "internal": 0.576,
+     "confidential": 0.64
+    },
+    "ms": 71
+   }
+  },
+  {
+   "id": "ok-public-company",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.07990999997127801
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.574,
+     "credential_location": 0.75,
+     "client": 0.524,
+     "internal": 0.711,
+     "confidential": 0.629
+    },
+    "ms": 68
+   }
+  },
+  {
+   "id": "ok-example-domains",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.11181000003125519
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.771,
+     "credential_location": 0.641,
+     "client": 0.801,
+     "internal": 0.767,
+     "confidential": 0.765
+    },
+    "ms": 82
+   }
+  },
+  {
+   "id": "ok-localhost",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.09286500001326203
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "internal"
+    ],
+    "scores": {
+     "credential": 0.695,
+     "credential_location": 0.306,
+     "client": 0.277,
+     "internal": 0.837,
+     "confidential": 0.369
+    },
+    "ms": 81
+   }
+  },
+  {
+   "id": "ok-public-ip-doc",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.10907500004395843
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.702,
+     "credential_location": 0.53,
+     "client": 0.262,
+     "internal": 0.76,
+     "confidential": 0.677
+    },
+    "ms": 70
+   }
+  },
+  {
+   "id": "ok-hash",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.0740290000103414
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.534,
+     "credential_location": 0.048,
+     "client": 0.102,
+     "internal": 0.214,
+     "confidential": 0.216
+    },
+    "ms": 102
+   }
+  },
+  {
+   "id": "ok-uuid",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.09510899998713285
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.414,
+     "credential_location": 0.049,
+     "client": 0.105,
+     "internal": 0.211,
+     "confidential": 0.308
+    },
+    "ms": 88
+   }
+  },
+  {
+   "id": "ok-sha256",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.08708299999125302
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.66,
+     "credential_location": 0.051,
+     "client": 0.017,
+     "internal": 0.21,
+     "confidential": 0.617
+    },
+    "ms": 95
+   }
+  },
+  {
+   "id": "ok-test-fixture",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.19565799995325506
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.902,
+     "credential_location": 0.903,
+     "client": 0.721,
+     "internal": 0.622,
+     "confidential": 0.711
+    },
+    "ms": 88
+   }
+  },
+  {
+   "id": "ok-release-notes",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.11362300009932369
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.288,
+     "credential_location": 0.092,
+     "client": 0.303,
+     "internal": 0.231,
+     "confidential": 0.132
+    },
+    "ms": 80
+   }
+  },
+  {
+   "id": "ok-howto-token",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.08198400004766881
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.777,
+     "credential_location": 0.435,
+     "client": 0.276,
+     "internal": 0.473,
+     "confidential": 0.568
+    },
+    "ms": 93
+   }
+  },
+  {
+   "id": "ok-where-docs",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.10550800000783056
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential_location",
+     "internal"
+    ],
+    "scores": {
+     "credential": 0.488,
+     "credential_location": 0.621,
+     "client": 0.204,
+     "internal": 0.583,
+     "confidential": 0.327
+    },
+    "ms": 71
+   }
+  },
+  {
+   "id": "ok-security-policy",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.10736200003884733
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.825,
+     "credential_location": 0.374,
+     "client": 0.556,
+     "internal": 0.525,
+     "confidential": 0.711
+    },
+    "ms": 71
+   }
+  },
+  {
+   "id": "ok-generic-customer",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.14398000005166978
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.351,
+     "credential_location": 0.037,
+     "client": 0.169,
+     "internal": 0.119,
+     "confidential": 0.254
+    },
+    "ms": 70
+   }
+  },
+  {
+   "id": "ok-public-pricing",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.11092900007497519
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.069,
+     "credential_location": 0.005,
+     "client": 0.177,
+     "internal": 0.052,
+     "confidential": 0.186
+    },
+    "ms": 65
+   }
+  },
+  {
+   "id": "ok-open-roadmap",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.16148200002498925
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.293,
+     "credential_location": 0.117,
+     "client": 0.131,
+     "internal": 0.451,
+     "confidential": 0.47
+    },
+    "ms": 72
+   }
+  },
+  {
+   "id": "ok-curl-public",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.09581999992951751
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.322,
+     "credential_location": 0.055,
+     "client": 0.108,
+     "internal": 0.305,
+     "confidential": 0.421
+    },
+    "ms": 79
+   }
+  },
+  {
+   "id": "ok-curl-post-json",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.1166589999338612
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.3,
+     "credential_location": 0.164,
+     "client": 0.07,
+     "internal": 0.453,
+     "confidential": 0.425
+    },
+    "ms": 95
+   }
+  },
+  {
+   "id": "ok-webfetch-docs",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.0792190000647679
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.186,
+     "credential_location": 0.042,
+     "client": 0.013,
+     "internal": 0.188,
+     "confidential": 0.325
+    },
+    "ms": 71
+   }
+  },
+  {
+   "id": "ok-git-push-message",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.08600199990905821
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.133,
+     "credential_location": 0.014,
+     "client": 0.089,
+     "internal": 0.129,
+     "confidential": 0.171
+    },
+    "ms": 73
+   }
+  },
+  {
+   "id": "ok-mcp-slack",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.08406799996737391
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.169,
+     "credential_location": 0.042,
+     "client": 0.033,
+     "internal": 0.198,
+     "confidential": 0.18
+    },
+    "ms": 73
+   }
+  },
+  {
+   "id": "ok-mcp-email",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.10672099993098527
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential_location",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.419,
+     "credential_location": 0.501,
+     "client": 0.498,
+     "internal": 0.477,
+     "confidential": 0.505
+    },
+    "ms": 75
+   }
+  },
+  {
+   "id": "ok-secret-word",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.07566199998836964
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.839,
+     "credential_location": 0.877,
+     "client": 0.274,
+     "internal": 0.679,
+     "confidential": 0.989
+    },
+    "ms": 72
+   }
+  },
+  {
+   "id": "ok-key-word",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.0831660000840202
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.543,
+     "credential_location": 0.087,
+     "client": 0.049,
+     "internal": 0.268,
+     "confidential": 0.489
+    },
+    "ms": 76
+   }
+  },
+  {
+   "id": "ok-token-word",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.09489900001790375
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.336,
+     "credential_location": 0.014,
+     "client": 0.011,
+     "internal": 0.049,
+     "confidential": 0.16
+    },
+    "ms": 68
+   }
+  },
+  {
+   "id": "ok-ssh-howto",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.07369899994228035
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.977,
+     "credential_location": 0.738,
+     "client": 0.475,
+     "internal": 0.84,
+     "confidential": 0.75
+    },
+    "ms": 78
+   }
+  },
+  {
+   "id": "ok-ja-commit",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.16772500006482005
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.267,
+     "credential_location": 0.094,
+     "client": 0.014,
+     "internal": 0.215,
+     "confidential": 0.493
+    },
+    "ms": 81
+   }
+  },
+  {
+   "id": "ok-ja-issue",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.12341300002299249
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.501,
+     "credential_location": 0.046,
+     "client": 0.072,
+     "internal": 0.248,
+     "confidential": 0.399
+    },
+    "ms": 76
+   }
+  },
+  {
+   "id": "ok-ja-docs",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.07635300001129508
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.712,
+     "credential_location": 0.541,
+     "client": 0.1,
+     "internal": 0.739,
+     "confidential": 0.851
+    },
+    "ms": 67
+   }
+  },
+  {
+   "id": "ok-ja-password-policy",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.08216399990487844
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.456,
+     "credential_location": 0.066,
+     "client": 0.035,
+     "internal": 0.217,
+     "confidential": 0.585
+    },
+    "ms": 82
+   }
+  },
+  {
+   "id": "ok-ja-vendor",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.17271499999333173
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.837,
+     "credential_location": 0.945,
+     "client": 0.503,
+     "internal": 0.841,
+     "confidential": 0.84
+    },
+    "ms": 78
+   }
+  },
+  {
+   "id": "ok-ja-env",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.08475000003818423
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.359,
+     "credential_location": 0.041,
+     "client": 0.019,
+     "internal": 0.149,
+     "confidential": 0.326
+    },
+    "ms": 76
+   }
+  },
+  {
+   "id": "ok-ja-public-company",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.09391699999105185
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.259,
+     "credential_location": 0.026,
+     "client": 0.109,
+     "internal": 0.278,
+     "confidential": 0.582
+    },
+    "ms": 80
+   }
+  },
+  {
+   "id": "ok-ja-report",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.12124800006859004
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.411,
+     "credential_location": 0.123,
+     "client": 0.112,
+     "internal": 0.536,
+     "confidential": 0.858
+    },
+    "ms": 84
+   }
+  },
+  {
+   "id": "ok-ja-howto",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.06278799998108298
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.494,
+     "credential_location": 0.389,
+     "client": 0.242,
+     "internal": 0.456,
+     "confidential": 0.472
+    },
+    "ms": 78
+   }
+  },
+  {
+   "id": "ok-ja-generic-customer",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.06072399998083711
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.445,
+     "credential_location": 0.081,
+     "client": 0.12,
+     "internal": 0.303,
+     "confidential": 0.51
+    },
+    "ms": 77
+   }
+  },
+  {
+   "id": "ok-ja-release",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.07739500002935529
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.555,
+     "credential_location": 0.088,
+     "client": 0.161,
+     "internal": 0.385,
+     "confidential": 0.426
+    },
+    "ms": 69
+   }
+  },
+  {
+   "id": "ok-ja-mcp",
+   "lang": "ja",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.07841800001915544
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.143,
+     "credential_location": 0.02,
+     "client": 0.048,
+     "internal": 0.128,
+     "confidential": 0.122
+    },
+    "ms": 77
+   }
+  },
+  {
+   "id": "ok-long-diff",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.2845649999799207
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "client",
+     "internal"
+    ],
+    "scores": {
+     "credential": 0.805,
+     "credential_location": 0.542,
+     "client": 0.644,
+     "internal": 0.715,
+     "confidential": 0.419
+    },
+    "ms": 174
+   }
+  },
+  {
+   "id": "ok-config-sample",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.1325590000487864
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "credential_location",
+     "client",
+     "internal",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.958,
+     "credential_location": 0.89,
+     "client": 0.839,
+     "internal": 0.916,
+     "confidential": 0.71
+    },
+    "ms": 105
+   }
+  },
+  {
+   "id": "ok-security-fix",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.09818400000222027
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential",
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.868,
+     "credential_location": 0.219,
+     "client": 0.031,
+     "internal": 0.279,
+     "confidential": 0.592
+    },
+    "ms": 79
+   }
+  },
+  {
+   "id": "ok-rotate-note",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.12369300005957484
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.914,
+     "credential_location": 0.306,
+     "client": 0.067,
+     "internal": 0.373,
+     "confidential": 0.499
+    },
+    "ms": 117
+   }
+  },
+  {
+   "id": "ok-arch-generic",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.0992969999788329
+   },
+   "model": {
+    "flagged": false,
+    "categories": [],
+    "scores": {
+     "credential": 0.215,
+     "credential_location": 0.095,
+     "client": 0.038,
+     "internal": 0.257,
+     "confidential": 0.259
+    },
+    "ms": 79
+   }
+  },
+  {
+   "id": "ok-thanks-oss",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.06838900002185255
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
+    "scores": {
+     "credential": 0.416,
+     "credential_location": 0.113,
+     "client": 0.64,
+     "internal": 0.395,
+     "confidential": 0.211
+    },
+    "ms": 73
+   }
+  },
+  {
+   "id": "ok-public-user-quote",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.09926699998322874
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
+    "scores": {
+     "credential": 0.798,
+     "credential_location": 0.152,
+     "client": 0.305,
+     "internal": 0.382,
+     "confidential": 0.286
+    },
+    "ms": 92
+   }
+  },
+  {
+   "id": "ok-github-handle",
+   "lang": "en",
+   "label": "clean",
+   "cat": [],
+   "rules": {
+    "flagged": false,
+    "categories": [],
+    "ms": 0.10322400007862598
+   },
+   "model": {
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
+    "scores": {
+     "credential": 0.429,
+     "credential_location": 0.278,
+     "client": 0.179,
+     "internal": 0.461,
+     "confidential": 0.532
+    },
+    "ms": 67
+   }
+  }
+ ],
+ "date": "2026-09-30",
+ "machine": "x86 CPU, 4 threads",
+ "wallSeconds": 15
+}
