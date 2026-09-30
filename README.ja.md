@@ -26,7 +26,7 @@ openclaw config set plugins.entries.typesafe.enabled true --json
 openclaw config set agents.defaults.decisionModel '"typesafe/jev-latest"' --json
 
 # 2. このプラグイン
-openclaw plugins install git:github.com/yousan/openclaw-jev-leakguard --accept-capabilities
+openclaw plugins install git:github.com/yousan/openclaw-jev-leakguard --accept-capabilities   # 確認に答える（または --force）
 openclaw config set plugins.entries.jev-leakguard.config '{
   "terms": { "clients": ["Northwind Logistics", "Northwind"] },
   "destinations": [
@@ -61,7 +61,7 @@ jev-leakguard: Blocked — message → slack:#vendor-shared (destination: shared
 
 ## すべて手元で完結させる：Kev
 
-ほかの Jev 製ガードは、確かめたい中身をホスト版の API に送って判定しています。「外に出してよいか」を確かめるために外に出していることになります。このプラグインは判定器を自分で呼ばず、OpenClaw の `decisionModel` に聞きます。そこを [Kev](https://github.com/jaredpalmer/kev)（自分で動かせる Jev 互換の判定モデル）に向ければ、判定は手元から出ません。
+私たちが見つけた Jev 製ガードは、既定では確かめたい中身をホスト版の API に送って判定しています。「外に出してよいか」を確かめるために外に出していることになります。このプラグインは判定器を自分で呼ばず、OpenClaw の `decisionModel` に聞きます。そこを [Kev](https://github.com/jaredpalmer/kev)（自分で動かせる Jev 互換の判定モデル）に向ければ、判定は手元から出ません。
 
 ```sh
 # Apple Silicon の Mac で（Kev-4B は 32 GB 程度、Kev-0.8B はどの M シリーズでも）
@@ -139,6 +139,7 @@ GitHub にある OpenClaw × Jev のプラグイン（2026-09-30 時点でどれ
 ## 制限
 
 - 本文だけを見ます。添付ファイルや画像は見ません。
+- OpenClaw 2026.9.6 の使い捨てプロファイルで、人格の返信がチャンネルへ届く前に `decisionModel`（typesafe → 手元の Kev）で判定され、止まることを確かめました。手で打つ `openclaw message send` は、私たちの試験ではこのプラグインのフックを通りませんでした。`message` ツールの経路（`before_tool_call`）は単体テストだけで確かめています。
 - `message` ツールの引数名（`message`、`target`、`channel`）は OpenClaw 2026.9.6 に合わせています。
 - 小さい手元のモデルは、見逃しも誤検知もします。CPU 上の Kev-0.8B は 1 通に数秒かかります。
 - 事故を減らすためのものです。わざと持ち出そうとする人格に対する防御ではありません。

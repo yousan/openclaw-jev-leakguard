@@ -26,7 +26,7 @@ openclaw config set plugins.entries.typesafe.enabled true --json
 openclaw config set agents.defaults.decisionModel '"typesafe/jev-latest"' --json
 
 # 2. This plugin
-openclaw plugins install git:github.com/yousan/openclaw-jev-leakguard --accept-capabilities
+openclaw plugins install git:github.com/yousan/openclaw-jev-leakguard --accept-capabilities   # confirm the prompt (or add --force)
 openclaw config set plugins.entries.jev-leakguard.config '{
   "terms": { "clients": ["Northwind Logistics", "Northwind"] },
   "destinations": [
@@ -61,7 +61,7 @@ From now on, every message your agents send goes through the same check.
 
 ## Or keep everything on your machine: Kev
 
-Every other Jev guard we found sends the content it is checking to a hosted API — to check whether something is too sensitive to send out, it sends it out. This plugin never calls a judge itself; it asks OpenClaw's `decisionModel`. Point that at a [Kev](https://github.com/jaredpalmer/kev) server (a Jev-compatible model you run yourself) and the check never leaves the machine.
+The Jev guards we found send the content they check to a hosted API by default — to find out whether something is too sensitive to send out, they send it out. This plugin never calls a judge itself; it asks OpenClaw's `decisionModel`. Point that at a [Kev](https://github.com/jaredpalmer/kev) server (a Jev-compatible model you run yourself) and the check never leaves the machine.
 
 ```sh
 # On an Apple Silicon Mac (Kev-4B needs ~32 GB; Kev-0.8B runs on any M-series Mac)
@@ -162,6 +162,7 @@ A synthetic test set: 56 leaks and 57 ordinary messages in English and Japanese 
 ## Limitations
 
 - Text only. Attachments and images are not checked.
+- Checked end to end on OpenClaw 2026.9.6 with a throwaway profile: an agent reply delivered to a channel is judged through `decisionModel` (typesafe → local Kev) and held back. Messages sent by hand with `openclaw message send` did not reach the plugin's hooks in our test. The `message` tool path (`before_tool_call`) is covered by unit tests only.
 - The `message` tool's parameter names (`message`, `target`, `channel`) follow OpenClaw 2026.9.6.
 - Small local models make mistakes both ways; Kev-0.8B on a CPU is slow (seconds per message).
 - It reduces accidents. It is not a security boundary against an agent trying to exfiltrate on purpose.
