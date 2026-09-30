@@ -3,7 +3,7 @@
  "backend": "typesafe/kev-latest",
  "local": true,
  "via": "openclaw-decisionModel",
- "seconds": 854,
+ "seconds": 619,
  "results": [
   {
    "id": "cred-aws-env",
@@ -17,7 +17,7 @@
     "categories": [
      "credential"
     ],
-    "ms": 0.07108399993740022
+    "ms": 1.0121419997885823
    },
    "model": {
     "flagged": true,
@@ -25,13 +25,13 @@
      "credential"
     ],
     "scores": {
-     "credential": 0.736,
-     "credential_location": 0.454,
-     "client": 0.123,
-     "internal": 0.202,
-     "confidential": 0.137
+     "credential": 0.727,
+     "credential_location": 0.367,
+     "client": 0.182,
+     "internal": 0.221,
+     "confidential": 0.328
     },
-    "ms": 7762
+    "ms": 4546
    }
   },
   {
@@ -46,19 +46,21 @@
     "categories": [
      "credential"
     ],
-    "ms": 0.0731979999691248
+    "ms": 1.108502000104636
    },
    "model": {
-    "flagged": false,
-    "categories": [],
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
     "scores": {
-     "credential": 0.388,
-     "credential_location": 0.287,
-     "client": 0.082,
-     "internal": 0.194,
-     "confidential": 0.115
+     "credential": 0.513,
+     "credential_location": 0.272,
+     "client": 0.161,
+     "internal": 0.251,
+     "confidential": 0.141
     },
-    "ms": 7324
+    "ms": 5057
    }
   },
   {
@@ -73,7 +75,7 @@
     "categories": [
      "credential"
     ],
-    "ms": 0.10025799996219575
+    "ms": 0.1531289997510612
    },
    "model": {
     "flagged": true,
@@ -81,13 +83,13 @@
      "credential"
     ],
     "scores": {
-     "credential": 0.613,
-     "credential_location": 0.249,
-     "client": 0.084,
-     "internal": 0.116,
-     "confidential": 0.112
+     "credential": 0.51,
+     "credential_location": 0.324,
+     "client": 0.135,
+     "internal": 0.168,
+     "confidential": 0.195
     },
-    "ms": 7436
+    "ms": 8939
    }
   },
   {
@@ -102,7 +104,7 @@
     "categories": [
      "credential"
     ],
-    "ms": 0.35100800008513033
+    "ms": 0.7976400000043213
    },
    "model": {
     "flagged": true,
@@ -110,13 +112,13 @@
      "credential"
     ],
     "scores": {
-     "credential": 0.743,
-     "credential_location": 0.27,
-     "client": 0.127,
-     "internal": 0.125,
-     "confidential": 0.221
+     "credential": 0.851,
+     "credential_location": 0.383,
+     "client": 0.245,
+     "internal": 0.135,
+     "confidential": 0.347
     },
-    "ms": 6093
+    "ms": 4618
    }
   },
   {
@@ -131,7 +133,7 @@
     "categories": [
      "credential"
     ],
-    "ms": 0.20372199988923967
+    "ms": 0.28262799978256226
    },
    "model": {
     "flagged": true,
@@ -139,13 +141,13 @@
      "credential"
     ],
     "scores": {
-     "credential": 0.855,
-     "credential_location": 0.31,
-     "client": 0.103,
-     "internal": 0.139,
-     "confidential": 0.168
+     "credential": 0.924,
+     "credential_location": 0.346,
+     "client": 0.174,
+     "internal": 0.186,
+     "confidential": 0.255
     },
-    "ms": 7279
+    "ms": 3997
    }
   },
   {
@@ -160,7 +162,7 @@
     "categories": [
      "credential"
     ],
-    "ms": 0.14602399989962578
+    "ms": 0.10763199999928474
    },
    "model": {
     "flagged": true,
@@ -168,13 +170,13 @@
      "credential"
     ],
     "scores": {
-     "credential": 0.802,
-     "credential_location": 0.363,
-     "client": 0.11,
-     "internal": 0.146,
-     "confidential": 0.101
+     "credential": 0.888,
+     "credential_location": 0.384,
+     "client": 0.24,
+     "internal": 0.214,
+     "confidential": 0.237
     },
-    "ms": 7605
+    "ms": 3610
    }
   },
   {
@@ -189,7 +191,7 @@
     "categories": [
      "credential"
     ],
-    "ms": 0.20801099995151162
+    "ms": 0.12859199987724423
    },
    "model": {
     "flagged": true,
@@ -197,13 +199,13 @@
      "credential"
     ],
     "scores": {
-     "credential": 0.651,
-     "credential_location": 0.484,
-     "client": 0.079,
-     "internal": 0.164,
-     "confidential": 0.111
+     "credential": 0.724,
+     "credential_location": 0.356,
+     "client": 0.127,
+     "internal": 0.181,
+     "confidential": 0.2
     },
-    "ms": 7277
+    "ms": 4251
    }
   },
   {
@@ -218,7 +220,7 @@
     "categories": [
      "credential"
     ],
-    "ms": 0.11107899993658066
+    "ms": 0.07733500003814697
    },
    "model": {
     "flagged": true,
@@ -226,13 +228,13 @@
      "credential"
     ],
     "scores": {
-     "credential": 0.672,
-     "credential_location": 0.391,
-     "client": 0.169,
-     "internal": 0.309,
-     "confidential": 0.196
+     "credential": 0.722,
+     "credential_location": 0.347,
+     "client": 0.225,
+     "internal": 0.299,
+     "confidential": 0.329
     },
-    "ms": 6268
+    "ms": 4668
    }
   },
   {
@@ -247,21 +249,22 @@
     "categories": [
      "credential"
     ],
-    "ms": 0.08756400016136467
+    "ms": 0.271980999968946
    },
    "model": {
     "flagged": true,
     "categories": [
-     "credential"
+     "credential",
+     "internal"
     ],
     "scores": {
-     "credential": 0.601,
-     "credential_location": 0.353,
-     "client": 0.131,
-     "internal": 0.266,
-     "confidential": 0.099
+     "credential": 0.672,
+     "credential_location": 0.413,
+     "client": 0.18,
+     "internal": 0.587,
+     "confidential": 0.312
     },
-    "ms": 6303
+    "ms": 3344
    }
   },
   {
@@ -274,7 +277,7 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.23891799990087748
+    "ms": 0.6077600000426173
    },
    "model": {
     "flagged": true,
@@ -282,13 +285,13 @@
      "credential"
     ],
     "scores": {
-     "credential": 0.713,
-     "credential_location": 0.413,
-     "client": 0.142,
-     "internal": 0.226,
-     "confidential": 0.147
+     "credential": 0.526,
+     "credential_location": 0.307,
+     "client": 0.144,
+     "internal": 0.224,
+     "confidential": 0.221
     },
-    "ms": 6159
+    "ms": 3255
    }
   },
   {
@@ -301,19 +304,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.1444610001053661
+    "ms": 0.06579399993643165
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.478,
-     "credential_location": 0.325,
-     "client": 0.126,
-     "internal": 0.166,
-     "confidential": 0.116
+     "credential": 0.456,
+     "credential_location": 0.329,
+     "client": 0.186,
+     "internal": 0.246,
+     "confidential": 0.29
     },
-    "ms": 5669
+    "ms": 3572
    }
   },
   {
@@ -328,19 +331,19 @@
     "categories": [
      "credential"
     ],
-    "ms": 0.13201800012029707
+    "ms": 0.08541099959984422
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.46,
-     "credential_location": 0.192,
-     "client": 0.157,
-     "internal": 0.163,
-     "confidential": 0.114
+     "credential": 0.421,
+     "credential_location": 0.298,
+     "client": 0.267,
+     "internal": 0.26,
+     "confidential": 0.243
     },
-    "ms": 5307
+    "ms": 3681
    }
   },
   {
@@ -355,7 +358,7 @@
     "categories": [
      "credential"
     ],
-    "ms": 0.19167000008746982
+    "ms": 0.29978400003165007
    },
    "model": {
     "flagged": true,
@@ -363,13 +366,13 @@
      "credential"
     ],
     "scores": {
-     "credential": 0.786,
-     "credential_location": 0.45,
-     "client": 0.155,
-     "internal": 0.167,
-     "confidential": 0.137
+     "credential": 0.867,
+     "credential_location": 0.404,
+     "client": 0.2,
+     "internal": 0.216,
+     "confidential": 0.313
     },
-    "ms": 5213
+    "ms": 3456
    }
   },
   {
@@ -382,22 +385,21 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.09032900002785027
+    "ms": 0.07114299992099404
    },
    "model": {
     "flagged": true,
     "categories": [
-     "credential",
-     "credential_location"
+     "credential"
     ],
     "scores": {
-     "credential": 0.833,
-     "credential_location": 0.524,
-     "client": 0.197,
-     "internal": 0.246,
-     "confidential": 0.114
+     "credential": 0.652,
+     "credential_location": 0.35,
+     "client": 0.203,
+     "internal": 0.209,
+     "confidential": 0.234
     },
-    "ms": 3783
+    "ms": 3615
    }
   },
   {
@@ -412,19 +414,19 @@
     "categories": [
      "credential"
     ],
-    "ms": 0.0737179999705404
+    "ms": 0.10002800030633807
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.378,
-     "credential_location": 0.195,
-     "client": 0.108,
-     "internal": 0.175,
-     "confidential": 0.134
+     "credential": 0.367,
+     "credential_location": 0.168,
+     "client": 0.193,
+     "internal": 0.196,
+     "confidential": 0.214
     },
-    "ms": 4593
+    "ms": 4029
    }
   },
   {
@@ -439,7 +441,7 @@
     "categories": [
      "credential"
     ],
-    "ms": 0.17589000007137656
+    "ms": 0.12293999968096614
    },
    "model": {
     "flagged": true,
@@ -447,13 +449,13 @@
      "credential"
     ],
     "scores": {
-     "credential": 0.66,
-     "credential_location": 0.484,
-     "client": 0.132,
-     "internal": 0.142,
-     "confidential": 0.147
+     "credential": 0.731,
+     "credential_location": 0.316,
+     "client": 0.234,
+     "internal": 0.153,
+     "confidential": 0.361
     },
-    "ms": 4493
+    "ms": 5249
    }
   },
   {
@@ -466,19 +468,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.06738700019195676
+    "ms": 0.11598800029605627
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.481,
-     "credential_location": 0.371,
-     "client": 0.17,
-     "internal": 0.164,
-     "confidential": 0.392
+     "credential": 0.437,
+     "credential_location": 0.342,
+     "client": 0.25,
+     "internal": 0.243,
+     "confidential": 0.344
     },
-    "ms": 5799
+    "ms": 11570
    }
   },
   {
@@ -491,22 +493,21 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.11990499985404313
+    "ms": 0.09900599997490644
    },
    "model": {
     "flagged": true,
     "categories": [
-     "credential",
-     "credential_location"
+     "credential"
     ],
     "scores": {
-     "credential": 0.644,
-     "credential_location": 0.53,
-     "client": 0.118,
-     "internal": 0.136,
-     "confidential": 0.094
+     "credential": 0.698,
+     "credential_location": 0.343,
+     "client": 0.151,
+     "internal": 0.153,
+     "confidential": 0.202
     },
-    "ms": 8410
+    "ms": 8253
    }
   },
   {
@@ -522,21 +523,22 @@
     "categories": [
      "internal"
     ],
-    "ms": 0.12401299993507564
+    "ms": 0.12438299972563982
    },
    "model": {
     "flagged": true,
     "categories": [
+     "credential",
      "credential_location"
     ],
     "scores": {
-     "credential": 0.227,
-     "credential_location": 0.832,
-     "client": 0.108,
-     "internal": 0.443,
-     "confidential": 0.103
+     "credential": 0.575,
+     "credential_location": 0.77,
+     "client": 0.16,
+     "internal": 0.274,
+     "confidential": 0.274
     },
-    "ms": 7049
+    "ms": 8012
    }
   },
   {
@@ -549,7 +551,7 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.1079120000358671
+    "ms": 0.11956400005146861
    },
    "model": {
     "flagged": true,
@@ -558,13 +560,13 @@
      "credential_location"
     ],
     "scores": {
-     "credential": 0.752,
-     "credential_location": 0.935,
-     "client": 0.09,
-     "internal": 0.139,
-     "confidential": 0.116
+     "credential": 0.891,
+     "credential_location": 0.652,
+     "client": 0.19,
+     "internal": 0.207,
+     "confidential": 0.271
     },
-    "ms": 6786
+    "ms": 5785
    }
   },
   {
@@ -577,19 +579,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.1248139999806881
+    "ms": 0.10875400016084313
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.304,
-     "credential_location": 0.387,
-     "client": 0.105,
-     "internal": 0.141,
-     "confidential": 0.15
+     "credential": 0.344,
+     "credential_location": 0.301,
+     "client": 0.143,
+     "internal": 0.155,
+     "confidential": 0.225
     },
-    "ms": 7437
+    "ms": 4168
    }
   },
   {
@@ -602,7 +604,7 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.10514699993655086
+    "ms": 0.0771149997599423
    },
    "model": {
     "flagged": true,
@@ -611,13 +613,13 @@
      "credential_location"
     ],
     "scores": {
-     "credential": 0.63,
-     "credential_location": 0.72,
-     "client": 0.122,
-     "internal": 0.105,
-     "confidential": 0.084
+     "credential": 0.787,
+     "credential_location": 0.507,
+     "client": 0.192,
+     "internal": 0.174,
+     "confidential": 0.323
     },
-    "ms": 7357
+    "ms": 3471
    }
   },
   {
@@ -630,21 +632,22 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.09057000000029802
+    "ms": 0.10494699981063604
    },
    "model": {
     "flagged": true,
     "categories": [
+     "credential",
      "credential_location"
     ],
     "scores": {
-     "credential": 0.366,
-     "credential_location": 0.898,
-     "client": 0.104,
-     "internal": 0.213,
-     "confidential": 0.129
+     "credential": 0.542,
+     "credential_location": 0.865,
+     "client": 0.124,
+     "internal": 0.247,
+     "confidential": 0.331
     },
-    "ms": 6549
+    "ms": 5622
    }
   },
   {
@@ -657,7 +660,7 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.13151699979789555
+    "ms": 0.09925700025632977
    },
    "model": {
     "flagged": true,
@@ -665,13 +668,13 @@
      "credential_location"
     ],
     "scores": {
-     "credential": 0.458,
-     "credential_location": 0.553,
-     "client": 0.255,
-     "internal": 0.222,
-     "confidential": 0.069
+     "credential": 0.45,
+     "credential_location": 0.534,
+     "client": 0.301,
+     "internal": 0.185,
+     "confidential": 0.342
     },
-    "ms": 5764
+    "ms": 4798
    }
   },
   {
@@ -687,22 +690,21 @@
     "categories": [
      "internal"
     ],
-    "ms": 0.09878599992953241
+    "ms": 0.09403599984943867
    },
    "model": {
     "flagged": true,
     "categories": [
-     "credential",
-     "credential_location"
+     "credential"
     ],
     "scores": {
-     "credential": 0.786,
-     "credential_location": 0.646,
-     "client": 0.096,
-     "internal": 0.303,
-     "confidential": 0.102
+     "credential": 0.91,
+     "credential_location": 0.432,
+     "client": 0.133,
+     "internal": 0.267,
+     "confidential": 0.198
     },
-    "ms": 5798
+    "ms": 3617
    }
   },
   {
@@ -718,7 +720,7 @@
     "categories": [
      "client"
     ],
-    "ms": 0.1840260000899434
+    "ms": 0.16135299997404218
    },
    "model": {
     "flagged": true,
@@ -726,13 +728,13 @@
      "client"
     ],
     "scores": {
-     "credential": 0.255,
-     "credential_location": 0.058,
-     "client": 0.705,
-     "internal": 0.069,
-     "confidential": 0.086
+     "credential": 0.062,
+     "credential_location": 0.081,
+     "client": 0.894,
+     "internal": 0.052,
+     "confidential": 0.136
     },
-    "ms": 6486
+    "ms": 4657
    }
   },
   {
@@ -748,19 +750,21 @@
     "categories": [
      "client"
     ],
-    "ms": 0.07678399980068207
+    "ms": 0.07750600017607212
    },
    "model": {
-    "flagged": false,
-    "categories": [],
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
     "scores": {
-     "credential": 0.262,
-     "credential_location": 0.206,
-     "client": 0.423,
-     "internal": 0.143,
-     "confidential": 0.127
+     "credential": 0.245,
+     "credential_location": 0.204,
+     "client": 0.807,
+     "internal": 0.141,
+     "confidential": 0.223
     },
-    "ms": 5208
+    "ms": 5186
    }
   },
   {
@@ -776,19 +780,19 @@
     "categories": [
      "client"
     ],
-    "ms": 0.0886359999421984
+    "ms": 0.09508900018408895
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.281,
-     "credential_location": 0.2,
-     "client": 0.467,
-     "internal": 0.099,
-     "confidential": 0.086
+     "credential": 0.129,
+     "credential_location": 0.146,
+     "client": 0.43,
+     "internal": 0.061,
+     "confidential": 0.188
     },
-    "ms": 7089
+    "ms": 3580
    }
   },
   {
@@ -804,7 +808,7 @@
     "categories": [
      "client"
     ],
-    "ms": 0.1381200000178069
+    "ms": 0.07765599992126226
    },
    "model": {
     "flagged": true,
@@ -812,13 +816,13 @@
      "client"
     ],
     "scores": {
-     "credential": 0.271,
-     "credential_location": 0.138,
-     "client": 0.751,
-     "internal": 0.151,
-     "confidential": 0.11
+     "credential": 0.219,
+     "credential_location": 0.127,
+     "client": 0.712,
+     "internal": 0.149,
+     "confidential": 0.163
     },
-    "ms": 6001
+    "ms": 4473
    }
   },
   {
@@ -832,19 +836,21 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.07892800006084144
+    "ms": 0.17505900003015995
    },
    "model": {
-    "flagged": false,
-    "categories": [],
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
     "scores": {
-     "credential": 0.248,
-     "credential_location": 0.147,
-     "client": 0.284,
-     "internal": 0.139,
-     "confidential": 0.09
+     "credential": 0.176,
+     "credential_location": 0.122,
+     "client": 0.702,
+     "internal": 0.184,
+     "confidential": 0.206
     },
-    "ms": 6751
+    "ms": 3529
    }
   },
   {
@@ -858,19 +864,21 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.07785700005479157
+    "ms": 0.08030099980533123
    },
    "model": {
-    "flagged": false,
-    "categories": [],
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
     "scores": {
-     "credential": 0.321,
-     "credential_location": 0.161,
-     "client": 0.265,
-     "internal": 0.112,
-     "confidential": 0.164
+     "credential": 0.176,
+     "credential_location": 0.211,
+     "client": 0.692,
+     "internal": 0.09,
+     "confidential": 0.289
     },
-    "ms": 6068
+    "ms": 4685
    }
   },
   {
@@ -884,19 +892,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.08760500000789762
+    "ms": 0.08805399993434548
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.229,
-     "credential_location": 0.094,
-     "client": 0.141,
-     "internal": 0.049,
-     "confidential": 0.087
+     "credential": 0.065,
+     "credential_location": 0.08,
+     "client": 0.463,
+     "internal": 0.048,
+     "confidential": 0.185
     },
-    "ms": 5899
+    "ms": 5953
    }
   },
   {
@@ -910,19 +918,21 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.06403100001625717
+    "ms": 0.09049999993294477
    },
    "model": {
-    "flagged": false,
-    "categories": [],
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
     "scores": {
-     "credential": 0.329,
-     "credential_location": 0.111,
-     "client": 0.274,
-     "internal": 0.113,
-     "confidential": 0.14
+     "credential": 0.14,
+     "credential_location": 0.094,
+     "client": 0.668,
+     "internal": 0.065,
+     "confidential": 0.277
     },
-    "ms": 6884
+    "ms": 8796
    }
   },
   {
@@ -936,19 +946,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.08211400010623038
+    "ms": 0.0752520002424717
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.347,
-     "credential_location": 0.235,
-     "client": 0.168,
-     "internal": 0.238,
-     "confidential": 0.145
+     "credential": 0.237,
+     "credential_location": 0.165,
+     "client": 0.284,
+     "internal": 0.173,
+     "confidential": 0.169
     },
-    "ms": 7682
+    "ms": 5363
    }
   },
   {
@@ -963,19 +973,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.0720049999654293
+    "ms": 0.1511739999987185
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.344,
-     "credential_location": 0.229,
-     "client": 0.213,
-     "internal": 0.193,
-     "confidential": 0.107
+     "credential": 0.307,
+     "credential_location": 0.243,
+     "client": 0.338,
+     "internal": 0.376,
+     "confidential": 0.19
     },
-    "ms": 7906
+    "ms": 5485
    }
   },
   {
@@ -990,19 +1000,21 @@
     "categories": [
      "internal"
     ],
-    "ms": 0.12316099996678531
+    "ms": 0.19709999999031425
    },
    "model": {
-    "flagged": false,
-    "categories": [],
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
     "scores": {
-     "credential": 0.356,
-     "credential_location": 0.195,
-     "client": 0.084,
-     "internal": 0.355,
-     "confidential": 0.07
+     "credential": 0.279,
+     "credential_location": 0.247,
+     "client": 0.191,
+     "internal": 0.701,
+     "confidential": 0.175
     },
-    "ms": 4992
+    "ms": 6598
    }
   },
   {
@@ -1015,19 +1027,21 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.07663400005549192
+    "ms": 0.10542700020596385
    },
    "model": {
-    "flagged": false,
-    "categories": [],
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
     "scores": {
-     "credential": 0.293,
-     "credential_location": 0.147,
-     "client": 0.109,
-     "internal": 0.217,
-     "confidential": 0.092
+     "credential": 0.149,
+     "credential_location": 0.15,
+     "client": 0.166,
+     "internal": 0.576,
+     "confidential": 0.142
     },
-    "ms": 6657
+    "ms": 4167
    }
   },
   {
@@ -1040,19 +1054,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.14836800005286932
+    "ms": 0.06287800008431077
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.387,
-     "credential_location": 0.28,
-     "client": 0.082,
-     "internal": 0.134,
-     "confidential": 0.07
+     "credential": 0.272,
+     "credential_location": 0.295,
+     "client": 0.179,
+     "internal": 0.283,
+     "confidential": 0.261
     },
-    "ms": 6418
+    "ms": 3691
    }
   },
   {
@@ -1065,19 +1079,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.15711500006727874
+    "ms": 0.07869799993932247
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.387,
-     "credential_location": 0.223,
-     "client": 0.181,
-     "internal": 0.19,
-     "confidential": 0.098
+     "credential": 0.327,
+     "credential_location": 0.249,
+     "client": 0.243,
+     "internal": 0.371,
+     "confidential": 0.247
     },
-    "ms": 5614
+    "ms": 5127
    }
   },
   {
@@ -1090,19 +1104,21 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.11526699992828071
+    "ms": 0.19784200005233288
    },
    "model": {
-    "flagged": false,
-    "categories": [],
+    "flagged": true,
+    "categories": [
+     "internal"
+    ],
     "scores": {
-     "credential": 0.319,
-     "credential_location": 0.238,
-     "client": 0.086,
-     "internal": 0.397,
-     "confidential": 0.181
+     "credential": 0.306,
+     "credential_location": 0.222,
+     "client": 0.163,
+     "internal": 0.615,
+     "confidential": 0.247
     },
-    "ms": 5353
+    "ms": 5961
    }
   },
   {
@@ -1117,19 +1133,19 @@
     "categories": [
      "internal"
     ],
-    "ms": 0.07704499992541969
+    "ms": 0.11694899993017316
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.355,
-     "credential_location": 0.355,
-     "client": 0.123,
-     "internal": 0.463,
-     "confidential": 0.11
+     "credential": 0.36,
+     "credential_location": 0.305,
+     "client": 0.173,
+     "internal": 0.42,
+     "confidential": 0.274
     },
-    "ms": 4624
+    "ms": 6883
    }
   },
   {
@@ -1145,21 +1161,19 @@
     "categories": [
      "confidential"
     ],
-    "ms": 0.09661199990659952
+    "ms": 0.07151500042527914
    },
    "model": {
-    "flagged": true,
-    "categories": [
-     "confidential"
-    ],
+    "flagged": false,
+    "categories": [],
     "scores": {
-     "credential": 0.258,
-     "credential_location": 0.098,
-     "client": 0.098,
-     "internal": 0.12,
-     "confidential": 0.544
+     "credential": 0.115,
+     "credential_location": 0.145,
+     "client": 0.163,
+     "internal": 0.149,
+     "confidential": 0.313
     },
-    "ms": 4817
+    "ms": 5929
    }
   },
   {
@@ -1173,19 +1187,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.060252999886870384
+    "ms": 0.08328699972480536
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.251,
-     "credential_location": 0.069,
-     "client": 0.114,
-     "internal": 0.081,
-     "confidential": 0.153
+     "credential": 0.1,
+     "credential_location": 0.111,
+     "client": 0.236,
+     "internal": 0.048,
+     "confidential": 0.257
     },
-    "ms": 5929
+    "ms": 7394
    }
   },
   {
@@ -1198,19 +1212,21 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.13016399997286499
+    "ms": 0.0657930001616478
    },
    "model": {
-    "flagged": false,
-    "categories": [],
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
     "scores": {
-     "credential": 0.23,
-     "credential_location": 0.107,
-     "client": 0.223,
-     "internal": 0.152,
-     "confidential": 0.201
+     "credential": 0.14,
+     "credential_location": 0.112,
+     "client": 0.302,
+     "internal": 0.166,
+     "confidential": 0.593
     },
-    "ms": 6000
+    "ms": 6203
    }
   },
   {
@@ -1223,19 +1239,21 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.15754600008949637
+    "ms": 0.08346700016409159
    },
    "model": {
-    "flagged": false,
-    "categories": [],
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
     "scores": {
-     "credential": 0.243,
-     "credential_location": 0.111,
-     "client": 0.184,
-     "internal": 0.096,
-     "confidential": 0.404
+     "credential": 0.209,
+     "credential_location": 0.14,
+     "client": 0.285,
+     "internal": 0.185,
+     "confidential": 0.846
     },
-    "ms": 5167
+    "ms": 5518
    }
   },
   {
@@ -1248,19 +1266,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.06587399984709918
+    "ms": 0.06279799994081259
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.228,
-     "credential_location": 0.113,
-     "client": 0.195,
-     "internal": 0.107,
-     "confidential": 0.208
+     "credential": 0.13,
+     "credential_location": 0.12,
+     "client": 0.31,
+     "internal": 0.061,
+     "confidential": 0.28
     },
-    "ms": 4788
+    "ms": 3702
    }
   },
   {
@@ -1274,19 +1292,21 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.09889600006863475
+    "ms": 0.05931099969893694
    },
    "model": {
-    "flagged": false,
-    "categories": [],
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
     "scores": {
-     "credential": 0.274,
-     "credential_location": 0.223,
-     "client": 0.189,
-     "internal": 0.114,
-     "confidential": 0.363
+     "credential": 0.266,
+     "credential_location": 0.235,
+     "client": 0.338,
+     "internal": 0.106,
+     "confidential": 0.619
     },
-    "ms": 5323
+    "ms": 4372
    }
   },
   {
@@ -1302,7 +1322,7 @@
     "categories": [
      "confidential"
     ],
-    "ms": 0.14718599990010262
+    "ms": 0.10195200005546212
    },
    "model": {
     "flagged": true,
@@ -1310,13 +1330,13 @@
      "confidential"
     ],
     "scores": {
-     "credential": 0.233,
-     "credential_location": 0.188,
-     "client": 0.12,
-     "internal": 0.118,
-     "confidential": 0.921
+     "credential": 0.165,
+     "credential_location": 0.136,
+     "client": 0.139,
+     "internal": 0.093,
+     "confidential": 0.8
     },
-    "ms": 5714
+    "ms": 6087
    }
   },
   {
@@ -1329,19 +1349,21 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.08396800002083182
+    "ms": 0.13121600029990077
    },
    "model": {
-    "flagged": false,
-    "categories": [],
+    "flagged": true,
+    "categories": [
+     "confidential"
+    ],
     "scores": {
-     "credential": 0.154,
-     "credential_location": 0.078,
-     "client": 0.174,
-     "internal": 0.105,
-     "confidential": 0.276
+     "credential": 0.146,
+     "credential_location": 0.119,
+     "client": 0.165,
+     "internal": 0.128,
+     "confidential": 0.872
     },
-    "ms": 5759
+    "ms": 5713
    }
   },
   {
@@ -1357,21 +1379,22 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.19981599994935095
+    "ms": 0.1141850003041327
    },
    "model": {
     "flagged": true,
     "categories": [
+     "credential",
      "credential_location"
     ],
     "scores": {
-     "credential": 0.429,
-     "credential_location": 0.876,
-     "client": 0.11,
-     "internal": 0.28,
-     "confidential": 0.118
+     "credential": 0.664,
+     "credential_location": 0.708,
+     "client": 0.164,
+     "internal": 0.375,
+     "confidential": 0.256
     },
-    "ms": 5766
+    "ms": 5296
    }
   },
   {
@@ -1387,21 +1410,22 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.07129399990662932
+    "ms": 0.06392100034281611
    },
    "model": {
     "flagged": true,
     "categories": [
+     "credential",
      "credential_location"
     ],
     "scores": {
-     "credential": 0.447,
-     "credential_location": 0.805,
-     "client": 0.135,
-     "internal": 0.202,
-     "confidential": 0.121
+     "credential": 0.613,
+     "credential_location": 0.702,
+     "client": 0.207,
+     "internal": 0.319,
+     "confidential": 0.272
     },
-    "ms": 6968
+    "ms": 4738
    }
   },
   {
@@ -1414,19 +1438,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.16254599997773767
+    "ms": 0.08706399984657764
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.373,
-     "credential_location": 0.239,
-     "client": 0.107,
-     "internal": 0.203,
-     "confidential": 0.095
+     "credential": 0.367,
+     "credential_location": 0.319,
+     "client": 0.177,
+     "internal": 0.279,
+     "confidential": 0.23
     },
-    "ms": 6615
+    "ms": 7601
    }
   },
   {
@@ -1440,19 +1464,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.07220600033178926
+    "ms": 0.09508899971842766
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.297,
-     "credential_location": 0.166,
-     "client": 0.173,
-     "internal": 0.125,
-     "confidential": 0.073
+     "credential": 0.166,
+     "credential_location": 0.122,
+     "client": 0.247,
+     "internal": 0.188,
+     "confidential": 0.198
     },
-    "ms": 4939
+    "ms": 6982
    }
   },
   {
@@ -1467,19 +1491,19 @@
     "categories": [
      "credential"
     ],
-    "ms": 0.0979840001091361
+    "ms": 0.42967800004407763
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.386,
-     "credential_location": 0.293,
-     "client": 0.112,
-     "internal": 0.338,
-     "confidential": 0.045
+     "credential": 0.417,
+     "credential_location": 0.322,
+     "client": 0.133,
+     "internal": 0.284,
+     "confidential": 0.139
     },
-    "ms": 4919
+    "ms": 6511
    }
   },
   {
@@ -1496,19 +1520,21 @@
     "categories": [
      "client"
     ],
-    "ms": 0.10416599968448281
+    "ms": 0.2100939997471869
    },
    "model": {
-    "flagged": false,
-    "categories": [],
+    "flagged": true,
+    "categories": [
+     "client"
+    ],
     "scores": {
-     "credential": 0.255,
-     "credential_location": 0.077,
-     "client": 0.457,
-     "internal": 0.059,
-     "confidential": 0.195
+     "credential": 0.077,
+     "credential_location": 0.089,
+     "client": 0.73,
+     "internal": 0.07,
+     "confidential": 0.328
     },
-    "ms": 6333
+    "ms": 4277
    }
   },
   {
@@ -1523,7 +1549,7 @@
     "categories": [
      "credential"
     ],
-    "ms": 0.1659110002219677
+    "ms": 0.08746300032362342
    },
    "model": {
     "flagged": true,
@@ -1531,13 +1557,13 @@
      "credential"
     ],
     "scores": {
-     "credential": 0.554,
-     "credential_location": 0.325,
-     "client": 0.159,
-     "internal": 0.107,
-     "confidential": 0.129
+     "credential": 0.679,
+     "credential_location": 0.306,
+     "client": 0.298,
+     "internal": 0.172,
+     "confidential": 0.211
     },
-    "ms": 7456
+    "ms": 5592
    }
   },
   {
@@ -1548,19 +1574,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.07857700018212199
+    "ms": 1.1183609999716282
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.257,
-     "credential_location": 0.107,
-     "client": 0.133,
-     "internal": 0.068,
-     "confidential": 0.082
+     "credential": 0.081,
+     "credential_location": 0.081,
+     "client": 0.144,
+     "internal": 0.073,
+     "confidential": 0.117
     },
-    "ms": 5107
+    "ms": 5568
    }
   },
   {
@@ -1571,19 +1597,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.07475100038573146
+    "ms": 0.1324279997497797
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.275,
-     "credential_location": 0.136,
-     "client": 0.089,
-     "internal": 0.076,
-     "confidential": 0.077
+     "credential": 0.105,
+     "credential_location": 0.19,
+     "client": 0.144,
+     "internal": 0.082,
+     "confidential": 0.128
     },
-    "ms": 5268
+    "ms": 5244
    }
   },
   {
@@ -1594,19 +1620,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.07868799986317754
+    "ms": 0.05977099994197488
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.215,
-     "credential_location": 0.186,
-     "client": 0.06,
-     "internal": 0.088,
-     "confidential": 0.058
+     "credential": 0.161,
+     "credential_location": 0.212,
+     "client": 0.08,
+     "internal": 0.107,
+     "confidential": 0.115
     },
-    "ms": 5661
+    "ms": 4733
    }
   },
   {
@@ -1617,19 +1643,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.07212600018829107
+    "ms": 0.09414600022137165
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.343,
-     "credential_location": 0.195,
-     "client": 0.086,
-     "internal": 0.085,
-     "confidential": 0.073
+     "credential": 0.262,
+     "credential_location": 0.245,
+     "client": 0.169,
+     "internal": 0.141,
+     "confidential": 0.164
     },
-    "ms": 7788
+    "ms": 4104
    }
   },
   {
@@ -1640,22 +1666,21 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.08086199965327978
+    "ms": 0.31657399982213974
    },
    "model": {
     "flagged": true,
     "categories": [
-     "credential",
-     "credential_location"
+     "credential"
     ],
     "scores": {
-     "credential": 0.662,
-     "credential_location": 0.512,
-     "client": 0.116,
-     "internal": 0.253,
-     "confidential": 0.109
+     "credential": 0.853,
+     "credential_location": 0.496,
+     "client": 0.16,
+     "internal": 0.323,
+     "confidential": 0.321
     },
-    "ms": 6954
+    "ms": 4688
    }
   },
   {
@@ -1666,7 +1691,7 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.06792799988761544
+    "ms": 0.23017199989408255
    },
    "model": {
     "flagged": true,
@@ -1674,13 +1699,13 @@
      "credential"
     ],
     "scores": {
-     "credential": 0.775,
-     "credential_location": 0.424,
-     "client": 0.141,
-     "internal": 0.12,
-     "confidential": 0.124
+     "credential": 0.902,
+     "credential_location": 0.393,
+     "client": 0.209,
+     "internal": 0.201,
+     "confidential": 0.305
     },
-    "ms": 9164
+    "ms": 6114
    }
   },
   {
@@ -1691,19 +1716,21 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.12353099975734949
+    "ms": 0.14054399961605668
    },
    "model": {
-    "flagged": false,
-    "categories": [],
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
     "scores": {
-     "credential": 0.363,
-     "credential_location": 0.316,
-     "client": 0.146,
-     "internal": 0.192,
-     "confidential": 0.137
+     "credential": 0.588,
+     "credential_location": 0.312,
+     "client": 0.204,
+     "internal": 0.229,
+     "confidential": 0.282
     },
-    "ms": 8489
+    "ms": 6371
    }
   },
   {
@@ -1714,19 +1741,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.06310900021344423
+    "ms": 0.1218079999089241
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.407,
-     "credential_location": 0.298,
-     "client": 0.088,
-     "internal": 0.1,
-     "confidential": 0.136
+     "credential": 0.384,
+     "credential_location": 0.227,
+     "client": 0.141,
+     "internal": 0.103,
+     "confidential": 0.216
     },
-    "ms": 5846
+    "ms": 4995
    }
   },
   {
@@ -1737,19 +1764,21 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.07977999979630113
+    "ms": 0.08912700042128563
    },
    "model": {
-    "flagged": false,
-    "categories": [],
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
     "scores": {
-     "credential": 0.402,
-     "credential_location": 0.424,
-     "client": 0.08,
-     "internal": 0.132,
-     "confidential": 0.181
+     "credential": 0.817,
+     "credential_location": 0.369,
+     "client": 0.098,
+     "internal": 0.181,
+     "confidential": 0.416
     },
-    "ms": 5663
+    "ms": 4338
    }
   },
   {
@@ -1760,19 +1789,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.07952000014483929
+    "ms": 0.09172199992462993
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.283,
-     "credential_location": 0.149,
-     "client": 0.084,
-     "internal": 0.077,
-     "confidential": 0.086
+     "credential": 0.172,
+     "credential_location": 0.199,
+     "client": 0.159,
+     "internal": 0.102,
+     "confidential": 0.124
     },
-    "ms": 5649
+    "ms": 7269
    }
   },
   {
@@ -1783,19 +1812,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.07924900017678738
+    "ms": 0.18377600004896522
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.308,
-     "credential_location": 0.154,
-     "client": 0.096,
-     "internal": 0.051,
-     "confidential": 0.098
+     "credential": 0.135,
+     "credential_location": 0.157,
+     "client": 0.226,
+     "internal": 0.074,
+     "confidential": 0.197
     },
-    "ms": 5768
+    "ms": 12113
    }
   },
   {
@@ -1806,19 +1835,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.0767850000411272
+    "ms": 0.0915220002643764
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.274,
-     "credential_location": 0.138,
-     "client": 0.039,
-     "internal": 0.065,
-     "confidential": 0.097
+     "credential": 0.066,
+     "credential_location": 0.113,
+     "client": 0.112,
+     "internal": 0.075,
+     "confidential": 0.109
     },
-    "ms": 5331
+    "ms": 6910
    }
   },
   {
@@ -1829,19 +1858,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.08228399977087975
+    "ms": 0.07620299980044365
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.24,
+     "credential": 0.062,
      "credential_location": 0.099,
-     "client": 0.051,
-     "internal": 0.049,
-     "confidential": 0.065
+     "client": 0.138,
+     "internal": 0.059,
+     "confidential": 0.108
     },
-    "ms": 4899
+    "ms": 4909
    }
   },
   {
@@ -1852,19 +1881,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.09903600020334125
+    "ms": 0.08134299982339144
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.466,
-     "credential_location": 0.27,
-     "client": 0.224,
-     "internal": 0.107,
-     "confidential": 0.088
+     "credential": 0.382,
+     "credential_location": 0.338,
+     "client": 0.272,
+     "internal": 0.283,
+     "confidential": 0.239
     },
-    "ms": 5991
+    "ms": 9601
    }
   },
   {
@@ -1875,19 +1904,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.10769199999049306
+    "ms": 0.07781600020825863
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.267,
-     "credential_location": 0.119,
-     "client": 0.062,
-     "internal": 0.088,
-     "confidential": 0.068
+     "credential": 0.235,
+     "credential_location": 0.227,
+     "client": 0.101,
+     "internal": 0.243,
+     "confidential": 0.132
     },
-    "ms": 7789
+    "ms": 6357
    }
   },
   {
@@ -1898,19 +1927,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.13264899980276823
+    "ms": 0.07344700023531914
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.239,
-     "credential_location": 0.177,
-     "client": 0.073,
-     "internal": 0.06,
-     "confidential": 0.046
+     "credential": 0.116,
+     "credential_location": 0.171,
+     "client": 0.098,
+     "internal": 0.204,
+     "confidential": 0.115
     },
-    "ms": 7024
+    "ms": 5260
    }
   },
   {
@@ -1921,19 +1950,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.07345800008624792
+    "ms": 0.07380899973213673
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.311,
-     "credential_location": 0.248,
-     "client": 0.122,
-     "internal": 0.139,
-     "confidential": 0.124
+     "credential": 0.157,
+     "credential_location": 0.182,
+     "client": 0.135,
+     "internal": 0.151,
+     "confidential": 0.223
     },
-    "ms": 7124
+    "ms": 4243
    }
   },
   {
@@ -1944,19 +1973,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.2660500002093613
+    "ms": 1.18619400030002
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.412,
-     "credential_location": 0.32,
+     "credential": 0.281,
+     "credential_location": 0.252,
      "client": 0.144,
-     "internal": 0.249,
-     "confidential": 0.282
+     "internal": 0.256,
+     "confidential": 0.255
     },
-    "ms": 9541
+    "ms": 6462
    }
   },
   {
@@ -1967,19 +1996,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.15033199964091182
+    "ms": 0.05932200001552701
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.259,
-     "credential_location": 0.177,
-     "client": 0.088,
-     "internal": 0.111,
-     "confidential": 0.082
+     "credential": 0.167,
+     "credential_location": 0.192,
+     "client": 0.127,
+     "internal": 0.149,
+     "confidential": 0.178
     },
-    "ms": 7872
+    "ms": 5579
    }
   },
   {
@@ -1990,21 +2019,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.10799300018697977
+    "ms": 0.4220420001074672
    },
    "model": {
-    "flagged": true,
-    "categories": [
-     "credential"
-    ],
+    "flagged": false,
+    "categories": [],
     "scores": {
-     "credential": 0.563,
-     "credential_location": 0.349,
-     "client": 0.165,
-     "internal": 0.106,
-     "confidential": 0.125
+     "credential": 0.402,
+     "credential_location": 0.312,
+     "client": 0.172,
+     "internal": 0.093,
+     "confidential": 0.151
     },
-    "ms": 5617
+    "ms": 6431
    }
   },
   {
@@ -2015,19 +2042,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.29285100009292364
+    "ms": 0.11850000033155084
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.276,
-     "credential_location": 0.129,
-     "client": 0.084,
-     "internal": 0.062,
-     "confidential": 0.078
+     "credential": 0.096,
+     "credential_location": 0.146,
+     "client": 0.125,
+     "internal": 0.074,
+     "confidential": 0.1
     },
-    "ms": 5534
+    "ms": 4309
    }
   },
   {
@@ -2038,19 +2065,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.10897399997338653
+    "ms": 0.0915310001000762
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.36,
-     "credential_location": 0.156,
-     "client": 0.068,
-     "internal": 0.049,
-     "confidential": 0.035
+     "credential": 0.366,
+     "credential_location": 0.194,
+     "client": 0.135,
+     "internal": 0.077,
+     "confidential": 0.129
     },
-    "ms": 7890
+    "ms": 4096
    }
   },
   {
@@ -2061,19 +2088,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.10830299975350499
+    "ms": 0.06482100021094084
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.283,
-     "credential_location": 0.294,
-     "client": 0.114,
-     "internal": 0.214,
-     "confidential": 0.062
+     "credential": 0.154,
+     "credential_location": 0.239,
+     "client": 0.096,
+     "internal": 0.187,
+     "confidential": 0.129
     },
-    "ms": 6807
+    "ms": 5530
    }
   },
   {
@@ -2084,19 +2111,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.10767300007864833
+    "ms": 0.2006970001384616
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.341,
-     "credential_location": 0.175,
-     "client": 0.136,
-     "internal": 0.106,
-     "confidential": 0.119
+     "credential": 0.285,
+     "credential_location": 0.204,
+     "client": 0.227,
+     "internal": 0.128,
+     "confidential": 0.222
     },
-    "ms": 5949
+    "ms": 6741
    }
   },
   {
@@ -2107,19 +2134,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.08620199980214238
+    "ms": 0.10191099997609854
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.373,
-     "credential_location": 0.225,
-     "client": 0.077,
-     "internal": 0.068,
-     "confidential": 0.109
+     "credential": 0.227,
+     "credential_location": 0.214,
+     "client": 0.13,
+     "internal": 0.102,
+     "confidential": 0.144
     },
-    "ms": 6124
+    "ms": 6946
    }
   },
   {
@@ -2130,19 +2157,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.12320099957287312
+    "ms": 0.08515999978408217
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.252,
-     "credential_location": 0.141,
-     "client": 0.08,
-     "internal": 0.049,
-     "confidential": 0.1
+     "credential": 0.082,
+     "credential_location": 0.16,
+     "client": 0.162,
+     "internal": 0.058,
+     "confidential": 0.192
     },
-    "ms": 8833
+    "ms": 4658
    }
   },
   {
@@ -2153,19 +2180,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.10718199983239174
+    "ms": 0.1027320004068315
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.273,
-     "credential_location": 0.11,
-     "client": 0.05,
-     "internal": 0.091,
-     "confidential": 0.168
+     "credential": 0.161,
+     "credential_location": 0.165,
+     "client": 0.09,
+     "internal": 0.085,
+     "confidential": 0.212
     },
-    "ms": 8349
+    "ms": 5456
    }
   },
   {
@@ -2176,19 +2203,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.0749790002591908
+    "ms": 0.0945369997061789
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.294,
-     "credential_location": 0.1,
-     "client": 0.034,
-     "internal": 0.075,
-     "confidential": 0.05
+     "credential": 0.109,
+     "credential_location": 0.122,
+     "client": 0.117,
+     "internal": 0.109,
+     "confidential": 0.154
     },
-    "ms": 5054
+    "ms": 7998
    }
   },
   {
@@ -2199,19 +2226,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.14521300001069903
+    "ms": 0.17229299992322922
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.359,
-     "credential_location": 0.155,
-     "client": 0.111,
-     "internal": 0.094,
-     "confidential": 0.101
+     "credential": 0.169,
+     "credential_location": 0.236,
+     "client": 0.163,
+     "internal": 0.118,
+     "confidential": 0.183
     },
-    "ms": 5535
+    "ms": 8575
    }
   },
   {
@@ -2222,19 +2249,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.08632199978455901
+    "ms": 0.088105000089854
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.24,
-     "credential_location": 0.14,
-     "client": 0.051,
-     "internal": 0.079,
-     "confidential": 0.05
+     "credential": 0.14,
+     "credential_location": 0.172,
+     "client": 0.066,
+     "internal": 0.095,
+     "confidential": 0.151
     },
-    "ms": 8735
+    "ms": 5203
    }
   },
   {
@@ -2245,19 +2272,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.06847900012508035
+    "ms": 0.07537099998444319
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.286,
-     "credential_location": 0.201,
-     "client": 0.119,
-     "internal": 0.114,
-     "confidential": 0.116
+     "credential": 0.139,
+     "credential_location": 0.197,
+     "client": 0.12,
+     "internal": 0.079,
+     "confidential": 0.182
     },
-    "ms": 6020
+    "ms": 6978
    }
   },
   {
@@ -2268,19 +2295,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.2026000004261732
+    "ms": 0.060202999971807
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.272,
-     "credential_location": 0.156,
-     "client": 0.085,
-     "internal": 0.085,
-     "confidential": 0.07
+     "credential": 0.174,
+     "credential_location": 0.18,
+     "client": 0.149,
+     "internal": 0.124,
+     "confidential": 0.101
     },
-    "ms": 5944
+    "ms": 5788
    }
   },
   {
@@ -2291,19 +2318,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.1775039997883141
+    "ms": 0.077394999563694
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.285,
-     "credential_location": 0.145,
-     "client": 0.194,
-     "internal": 0.123,
-     "confidential": 0.109
+     "credential": 0.26,
+     "credential_location": 0.185,
+     "client": 0.319,
+     "internal": 0.171,
+     "confidential": 0.23
     },
-    "ms": 6621
+    "ms": 5843
    }
   },
   {
@@ -2314,19 +2341,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.08149300003424287
+    "ms": 0.09095000009983778
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
      "credential": 0.193,
-     "credential_location": 0.102,
-     "client": 0.037,
-     "internal": 0.057,
-     "confidential": 0.058
+     "credential_location": 0.136,
+     "client": 0.085,
+     "internal": 0.114,
+     "confidential": 0.143
     },
-    "ms": 9136
+    "ms": 5301
    }
   },
   {
@@ -2337,19 +2364,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.09441699972376227
+    "ms": 0.08548099966719747
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.286,
-     "credential_location": 0.192,
-     "client": 0.104,
-     "internal": 0.091,
-     "confidential": 0.092
+     "credential": 0.154,
+     "credential_location": 0.204,
+     "client": 0.186,
+     "internal": 0.118,
+     "confidential": 0.183
     },
-    "ms": 9594
+    "ms": 4029
    }
   },
   {
@@ -2360,19 +2387,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.18940600007772446
+    "ms": 0.08137300005182624
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.4,
-     "credential_location": 0.233,
-     "client": 0.149,
-     "internal": 0.077,
-     "confidential": 0.235
+     "credential": 0.254,
+     "credential_location": 0.228,
+     "client": 0.162,
+     "internal": 0.096,
+     "confidential": 0.288
     },
-    "ms": 8330
+    "ms": 5083
    }
   },
   {
@@ -2383,19 +2410,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.12663799989968538
+    "ms": 0.10903500020503998
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.338,
-     "credential_location": 0.316,
-     "client": 0.068,
-     "internal": 0.177,
-     "confidential": 0.089
+     "credential": 0.362,
+     "credential_location": 0.294,
+     "client": 0.095,
+     "internal": 0.182,
+     "confidential": 0.249
     },
-    "ms": 9663
+    "ms": 6174
    }
   },
   {
@@ -2406,19 +2433,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.22284800000488758
+    "ms": 0.11812200024724007
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.291,
-     "credential_location": 0.213,
-     "client": 0.143,
-     "internal": 0.184,
-     "confidential": 0.133
+     "credential": 0.152,
+     "credential_location": 0.127,
+     "client": 0.15,
+     "internal": 0.152,
+     "confidential": 0.172
     },
-    "ms": 7529
+    "ms": 6463
    }
   },
   {
@@ -2429,19 +2456,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.29535500006750226
+    "ms": 0.17463599983602762
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.285,
-     "credential_location": 0.163,
-     "client": 0.054,
-     "internal": 0.051,
-     "confidential": 0.087
+     "credential": 0.136,
+     "credential_location": 0.136,
+     "client": 0.109,
+     "internal": 0.071,
+     "confidential": 0.134
     },
-    "ms": 6949
+    "ms": 4333
    }
   },
   {
@@ -2452,19 +2479,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.1533379997126758
+    "ms": 0.06992099992930889
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.255,
-     "credential_location": 0.236,
-     "client": 0.11,
-     "internal": 0.135,
-     "confidential": 0.09
+     "credential": 0.192,
+     "credential_location": 0.244,
+     "client": 0.102,
+     "internal": 0.102,
+     "confidential": 0.181
     },
-    "ms": 7296
+    "ms": 4235
    }
   },
   {
@@ -2475,19 +2502,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.14399100001901388
+    "ms": 0.06500199995934963
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.374,
-     "credential_location": 0.404,
-     "client": 0.141,
-     "internal": 0.175,
-     "confidential": 0.164
+     "credential": 0.479,
+     "credential_location": 0.279,
+     "client": 0.173,
+     "internal": 0.112,
+     "confidential": 0.258
     },
-    "ms": 13209
+    "ms": 5749
    }
   },
   {
@@ -2498,19 +2525,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.12198900012299418
+    "ms": 0.06735600018873811
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.226,
-     "credential_location": 0.135,
-     "client": 0.077,
-     "internal": 0.08,
-     "confidential": 0.062
+     "credential": 0.135,
+     "credential_location": 0.233,
+     "client": 0.171,
+     "internal": 0.102,
+     "confidential": 0.123
     },
-    "ms": 14591
+    "ms": 5073
    }
   },
   {
@@ -2521,19 +2548,21 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.08648300031200051
+    "ms": 0.11746999993920326
    },
    "model": {
-    "flagged": false,
-    "categories": [],
+    "flagged": true,
+    "categories": [
+     "credential"
+    ],
     "scores": {
-     "credential": 0.288,
-     "credential_location": 0.411,
-     "client": 0.067,
-     "internal": 0.104,
-     "confidential": 0.08
+     "credential": 0.811,
+     "credential_location": 0.381,
+     "client": 0.114,
+     "internal": 0.113,
+     "confidential": 0.282
     },
-    "ms": 13044
+    "ms": 4969
    }
   },
   {
@@ -2544,19 +2573,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.14917000010609627
+    "ms": 0.08582099992781878
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.254,
-     "credential_location": 0.069,
-     "client": 0.056,
-     "internal": 0.03,
-     "confidential": 0.041
+     "credential": 0.031,
+     "credential_location": 0.064,
+     "client": 0.458,
+     "internal": 0.041,
+     "confidential": 0.205
     },
-    "ms": 13354
+    "ms": 3968
    }
   },
   {
@@ -2567,19 +2596,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.2500800001434982
+    "ms": 0.07706499984487891
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.253,
-     "credential_location": 0.181,
-     "client": 0.108,
-     "internal": 0.146,
-     "confidential": 0.035
+     "credential": 0.238,
+     "credential_location": 0.178,
+     "client": 0.143,
+     "internal": 0.139,
+     "confidential": 0.137
     },
-    "ms": 15184
+    "ms": 3961
    }
   },
   {
@@ -2590,19 +2619,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.10936499992385507
+    "ms": 0.0656530000269413
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.343,
-     "credential_location": 0.176,
-     "client": 0.045,
-     "internal": 0.093,
-     "confidential": 0.109
+     "credential": 0.255,
+     "credential_location": 0.196,
+     "client": 0.158,
+     "internal": 0.099,
+     "confidential": 0.179
     },
-    "ms": 10404
+    "ms": 4634
    }
   },
   {
@@ -2613,19 +2642,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.14092499995604157
+    "ms": 0.059671999886631966
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.292,
-     "credential_location": 0.122,
-     "client": 0.125,
-     "internal": 0.089,
-     "confidential": 0.083
+     "credential": 0.139,
+     "credential_location": 0.132,
+     "client": 0.265,
+     "internal": 0.131,
+     "confidential": 0.182
     },
-    "ms": 10537
+    "ms": 5219
    }
   },
   {
@@ -2636,19 +2665,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.10023900028318167
+    "ms": 0.18818299984559417
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.294,
-     "credential_location": 0.115,
-     "client": 0.079,
-     "internal": 0.086,
-     "confidential": 0.08
+     "credential": 0.106,
+     "credential_location": 0.129,
+     "client": 0.121,
+     "internal": 0.08,
+     "confidential": 0.096
     },
-    "ms": 17351
+    "ms": 5220
    }
   },
   {
@@ -2659,19 +2688,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.20914299972355366
+    "ms": 0.12213900033384562
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.271,
-     "credential_location": 0.184,
-     "client": 0.067,
-     "internal": 0.09,
-     "confidential": 0.078
+     "credential": 0.185,
+     "credential_location": 0.204,
+     "client": 0.125,
+     "internal": 0.14,
+     "confidential": 0.129
     },
-    "ms": 18539
+    "ms": 4767
    }
   },
   {
@@ -2682,19 +2711,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.15802699979394674
+    "ms": 0.15077299997210503
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.285,
-     "credential_location": 0.159,
-     "client": 0.093,
-     "internal": 0.116,
-     "confidential": 0.086
+     "credential": 0.177,
+     "credential_location": 0.199,
+     "client": 0.137,
+     "internal": 0.198,
+     "confidential": 0.198
     },
-    "ms": 11955
+    "ms": 5390
    }
   },
   {
@@ -2705,7 +2734,7 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.10054900031536818
+    "ms": 0.13766800006851554
    },
    "model": {
     "flagged": true,
@@ -2714,13 +2743,13 @@
      "credential_location"
     ],
     "scores": {
-     "credential": 0.53,
-     "credential_location": 0.602,
-     "client": 0.123,
-     "internal": 0.29,
-     "confidential": 0.113
+     "credential": 0.718,
+     "credential_location": 0.514,
+     "client": 0.147,
+     "internal": 0.389,
+     "confidential": 0.298
     },
-    "ms": 8990
+    "ms": 8296
    }
   },
   {
@@ -2731,19 +2760,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.08709299983456731
+    "ms": 0.08055099984630942
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.337,
-     "credential_location": 0.301,
-     "client": 0.124,
-     "internal": 0.203,
-     "confidential": 0.134
+     "credential": 0.345,
+     "credential_location": 0.275,
+     "client": 0.167,
+     "internal": 0.162,
+     "confidential": 0.227
     },
-    "ms": 12629
+    "ms": 8407
    }
   },
   {
@@ -2754,19 +2783,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.2045839997008443
+    "ms": 0.09730300027877092
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.225,
-     "credential_location": 0.307,
-     "client": 0.084,
-     "internal": 0.108,
-     "confidential": 0.081
+     "credential": 0.411,
+     "credential_location": 0.228,
+     "client": 0.189,
+     "internal": 0.128,
+     "confidential": 0.188
     },
-    "ms": 15049
+    "ms": 4619
    }
   },
   {
@@ -2777,19 +2806,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.09478799998760223
+    "ms": 0.0839169998653233
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.27,
-     "credential_location": 0.138,
-     "client": 0.085,
-     "internal": 0.106,
-     "confidential": 0.086
+     "credential": 0.158,
+     "credential_location": 0.152,
+     "client": 0.147,
+     "internal": 0.135,
+     "confidential": 0.127
     },
-    "ms": 15692
+    "ms": 3927
    }
   },
   {
@@ -2800,19 +2829,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.11381400004029274
+    "ms": 0.08722300035879016
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.245,
-     "credential_location": 0.084,
-     "client": 0.022,
-     "internal": 0.032,
-     "confidential": 0.032
+     "credential": 0.077,
+     "credential_location": 0.102,
+     "client": 0.081,
+     "internal": 0.054,
+     "confidential": 0.062
     },
-    "ms": 13038
+    "ms": 4713
    }
   },
   {
@@ -2823,19 +2852,19 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.11212099995464087
+    "ms": 0.08244499983265996
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.289,
-     "credential_location": 0.117,
-     "client": 0.067,
-     "internal": 0.046,
-     "confidential": 0.049
+     "credential": 0.076,
+     "credential_location": 0.113,
+     "client": 0.205,
+     "internal": 0.082,
+     "confidential": 0.125
     },
-    "ms": 9892
+    "ms": 4965
    }
   },
   {
@@ -2846,23 +2875,23 @@
    "rules": {
     "flagged": false,
     "categories": [],
-    "ms": 0.3658070000819862
+    "ms": 0.07401800015941262
    },
    "model": {
     "flagged": false,
     "categories": [],
     "scores": {
-     "credential": 0.291,
-     "credential_location": 0.265,
-     "client": 0.126,
-     "internal": 0.151,
-     "confidential": 0.086
+     "credential": 0.214,
+     "credential_location": 0.252,
+     "client": 0.245,
+     "internal": 0.079,
+     "confidential": 0.164
     },
-    "ms": 16775
+    "ms": 4869
    }
   }
  ],
  "date": "2026-09-30",
  "machine": "x86 CPU, no GPU",
- "wallSeconds": 861
+ "wallSeconds": 624
 }

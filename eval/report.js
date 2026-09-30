@@ -103,7 +103,7 @@ if (process.argv.includes('--readme')) {
     } catch {
       continue;
     }
-    const re = /(<!-- results:start -->\n)[\s\S]*?(\n<!-- results:end -->)/;
-    if (re.test(s)) writeFileSync(p, s.replace(re, `$1${out}$2`));
+    const re = /(<!-- results:start -->\n)[\s\S]*?(<!-- results:end -->)/;
+    if (re.test(s)) writeFileSync(p, s.replace(re, `$1${out}\n$2`));
   }
 }
