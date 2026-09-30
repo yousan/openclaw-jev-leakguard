@@ -46,6 +46,7 @@ export function decisionsJudge(runtime, { agentId, signal, timeoutMs, local, mod
     name: model || 'decisionModel',
     local,
     style: model?.startsWith('onnx/') ? 'short' : 'full',
+    usage: { calls: 0, inputTokens: 0, outputTokens: 0 }, // running totals, read by the eval
     where: local ? 'the local decision model' : `${model || 'the decision model'} (hosted)`,
     async ask(parts, questions) {
       const cats = Object.keys(questions);
@@ -62,6 +63,9 @@ export function decisionsJudge(runtime, { agentId, signal, timeoutMs, local, mod
           { ...(agentId && { agentId }), purpose: PURPOSE, rubricVersion: RUBRIC_VERSION, timeoutMs, signal },
         );
         if (outcome.status !== 'ok') throw new JudgeUnavailable(`decision model unavailable: ${outcome.reason}`);
+        this.usage.calls += 1;
+        this.usage.inputTokens += outcome.result.usage?.inputTokens ?? 0;
+        this.usage.outputTokens += outcome.result.usage?.outputTokens ?? 0;
         const a = outcome.result.answers;
         // For a Choice, "category c or nothing sensitive?" = p(c) / (p(c) + p(none)).
         const pr = a.kind?.probabilities || {};
