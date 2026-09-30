@@ -1,0 +1,9 @@
+{
+  "_comment": "Term lists for the eval. All names are made up. Some leaks in cases.js use names NOT listed here on purpose.",
+  "terms": {
+    "clients": ["Northwind Logistics", "Contoso Pharma", "Fabrikam Foods", "ミナト精機", "さくら物流"],
+    "internal": ["intra.acmeops.example", "ops-db-01"],
+    "confidential": ["Project Falcon", "プロジェクト隼"],
+    "patterns": []
+  }
+}
